@@ -1,0 +1,3 @@
+from analyse.sentiment_analyse.reddit_sentiment_analyse import RedditSocialSubmissionAnalyser, subreddits
+
+RedditSocialSubmissionAnalyser().start(subreddits)
