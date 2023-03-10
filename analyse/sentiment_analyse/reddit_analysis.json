@@ -3,21 +3,12 @@
     "subreddit": "bitcoin",
     "sentiment_historical_data": [
       {
-        "timestamp": "2023-02-26T20:12:21.896666",
+        "timestamp": "2023-03-10T08:15:22.488741",
         "top_posts": [
           {
             "id": "7iey6q",
             "timestamp": "2017-12-08T13:28:10",
             "top_comments": [
-              {
-                "id": "dqynv9b",
-                "sentiment": {
-                  "textblob_comments_rate": 0.018181818181818184,
-                  "vader_comments_rate": 0.7672,
-                  "spacy_comments_rate": 0.018181818181818184,
-                  "total_comments_rate": 0.26785454545454546
-                }
-              },
               {
                 "id": "dqy8pgx",
                 "sentiment": {
@@ -52,6 +43,15 @@
                   "vader_comments_rate": -0.5803,
                   "spacy_comments_rate": -0.15625,
                   "total_comments_rate": -0.29760000000000003
+                }
+              },
+              {
+                "id": "dqynv9b",
+                "sentiment": {
+                  "textblob_comments_rate": 0.018181818181818184,
+                  "vader_comments_rate": 0.7672,
+                  "spacy_comments_rate": 0.018181818181818184,
+                  "total_comments_rate": 0.26785454545454546
                 }
               },
               {
@@ -163,6 +163,15 @@
                 }
               },
               {
+                "id": "dqybbpn",
+                "sentiment": {
+                  "textblob_comments_rate": 0.1,
+                  "vader_comments_rate": 0.8661,
+                  "spacy_comments_rate": 0.1,
+                  "total_comments_rate": 0.35536666666666666
+                }
+              },
+              {
                 "id": "dqy9wa7",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -181,21 +190,21 @@
                 }
               },
               {
-                "id": "dqybbpn",
-                "sentiment": {
-                  "textblob_comments_rate": 0.1,
-                  "vader_comments_rate": 0.8661,
-                  "spacy_comments_rate": 0.1,
-                  "total_comments_rate": 0.35536666666666666
-                }
-              },
-              {
                 "id": "dqy7ume",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.6124,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.20413333333333336
+                }
+              },
+              {
+                "id": "dqy93rw",
+                "sentiment": {
+                  "textblob_comments_rate": 0.4,
+                  "vader_comments_rate": 0.6369,
+                  "spacy_comments_rate": 0.4,
+                  "total_comments_rate": 0.4789666666666667
                 }
               },
               {
@@ -241,15 +250,6 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "dqy93rw",
-                "sentiment": {
-                  "textblob_comments_rate": 0.4,
-                  "vader_comments_rate": 0.6369,
-                  "spacy_comments_rate": 0.4,
-                  "total_comments_rate": 0.4789666666666667
                 }
               },
               {
@@ -845,33 +845,6 @@
                   "spacy_comments_rate": 0.13714285714285715,
                   "total_comments_rate": 0.09142857142857143
                 }
-              },
-              {
-                "id": "dqyao05",
-                "sentiment": {
-                  "textblob_comments_rate": 0.1625,
-                  "vader_comments_rate": 0.0772,
-                  "spacy_comments_rate": 0.1625,
-                  "total_comments_rate": 0.13406666666666667
-                }
-              },
-              {
-                "id": "dqydt80",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.7351,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.24503333333333333
-                }
-              },
-              {
-                "id": "dqyj6sf",
-                "sentiment": {
-                  "textblob_comments_rate": 0.8,
-                  "vader_comments_rate": 0.4215,
-                  "spacy_comments_rate": 0.8,
-                  "total_comments_rate": 0.6738333333333334
-                }
               }
             ],
             "sentiment": {
@@ -879,10 +852,10 @@
               "vader_post_rate": 0.9857,
               "spacy_post_rate": 0.05779282270759544,
               "total_post_rate": 0.367095215138397,
-              "textblob_comments_rate": -0.004389065584540837,
-              "vader_comments_rate": -0.06016249999999998,
-              "spacy_comments_rate": -0.004389065584540837,
-              "total_comments_rate": -0.022980210389693886
+              "textblob_comments_rate": -0.014880110710923876,
+              "vader_comments_rate": -0.07536989247311826,
+              "spacy_comments_rate": -0.014880110710923876,
+              "total_comments_rate": -0.035043371298322
             }
           },
           {
@@ -953,21 +926,21 @@
                 }
               },
               {
-                "id": "dqeogwp",
-                "sentiment": {
-                  "textblob_comments_rate": 0.3,
-                  "vader_comments_rate": 0.8661,
-                  "spacy_comments_rate": 0.3,
-                  "total_comments_rate": 0.48869999999999997
-                }
-              },
-              {
                 "id": "dqeqwx1",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "dqeogwp",
+                "sentiment": {
+                  "textblob_comments_rate": 0.3,
+                  "vader_comments_rate": 0.8661,
+                  "spacy_comments_rate": 0.3,
+                  "total_comments_rate": 0.48869999999999997
                 }
               },
               {
@@ -1043,15 +1016,6 @@
                 }
               },
               {
-                "id": "dqer7pe",
-                "sentiment": {
-                  "textblob_comments_rate": 0.13214285714285715,
-                  "vader_comments_rate": 0.8436,
-                  "spacy_comments_rate": 0.13214285714285715,
-                  "total_comments_rate": 0.3692952380952381
-                }
-              },
-              {
                 "id": "dqez17s",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -1061,12 +1025,12 @@
                 }
               },
               {
-                "id": "dqeuq11",
+                "id": "dqer7pe",
                 "sentiment": {
-                  "textblob_comments_rate": 0.3666666666666667,
-                  "vader_comments_rate": 0.8316,
-                  "spacy_comments_rate": 0.3666666666666667,
-                  "total_comments_rate": 0.5216444444444445
+                  "textblob_comments_rate": 0.13214285714285715,
+                  "vader_comments_rate": 0.8436,
+                  "spacy_comments_rate": 0.13214285714285715,
+                  "total_comments_rate": 0.3692952380952381
                 }
               },
               {
@@ -1076,6 +1040,15 @@
                   "vader_comments_rate": 0.8402,
                   "spacy_comments_rate": 0.5,
                   "total_comments_rate": 0.6134
+                }
+              },
+              {
+                "id": "dqeuq11",
+                "sentiment": {
+                  "textblob_comments_rate": 0.3666666666666667,
+                  "vader_comments_rate": 0.8316,
+                  "spacy_comments_rate": 0.3666666666666667,
+                  "total_comments_rate": 0.5216444444444445
                 }
               },
               {
@@ -1952,6 +1925,15 @@
                 }
               },
               {
+                "id": "dqeqj6t",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0976190476190476,
+                  "vader_comments_rate": 0.6808,
+                  "spacy_comments_rate": 0.0976190476190476,
+                  "total_comments_rate": 0.2920126984126984
+                }
+              },
+              {
                 "id": "dqepn2f",
                 "sentiment": {
                   "textblob_comments_rate": 0.1388888888888889,
@@ -1985,15 +1967,6 @@
                   "vader_comments_rate": -0.9245,
                   "spacy_comments_rate": -0.8,
                   "total_comments_rate": -0.8414999999999999
-                }
-              },
-              {
-                "id": "dqeqj6t",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0976190476190476,
-                  "vader_comments_rate": 0.6808,
-                  "spacy_comments_rate": 0.0976190476190476,
-                  "total_comments_rate": 0.2920126984126984
                 }
               },
               {
@@ -2214,7 +2187,7 @@
     "subreddit": "cryptocurrency",
     "sentiment_historical_data": [
       {
-        "timestamp": "2023-02-26T20:12:53.077864",
+        "timestamp": "2023-03-10T08:15:32.397157",
         "top_posts": [
           {
             "id": "mntcz3",
@@ -2239,15 +2212,6 @@
                 }
               },
               {
-                "id": "gu1e04f",
-                "sentiment": {
-                  "textblob_comments_rate": -0.24055555555555555,
-                  "vader_comments_rate": -0.9413,
-                  "spacy_comments_rate": -0.24055555555555555,
-                  "total_comments_rate": -0.4741370370370371
-                }
-              },
-              {
                 "id": "gtzqa94",
                 "sentiment": {
                   "textblob_comments_rate": 0.30625,
@@ -2257,12 +2221,12 @@
                 }
               },
               {
-                "id": "gu1sum4",
+                "id": "gu1e04f",
                 "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
+                  "textblob_comments_rate": -0.24055555555555555,
+                  "vader_comments_rate": -0.9413,
+                  "spacy_comments_rate": -0.24055555555555555,
+                  "total_comments_rate": -0.4741370370370371
                 }
               },
               {
@@ -2284,21 +2248,12 @@
                 }
               },
               {
-                "id": "gu1p9xj",
+                "id": "gu1sum4",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.504,
+                  "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.168
-                }
-              },
-              {
-                "id": "gu1mp98",
-                "sentiment": {
-                  "textblob_comments_rate": 0.09523809523809523,
-                  "vader_comments_rate": -0.5106,
-                  "spacy_comments_rate": 0.09523809523809523,
-                  "total_comments_rate": -0.10670793650793653
+                  "total_comments_rate": 0.0
                 }
               },
               {
@@ -2308,6 +2263,15 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gu1mp98",
+                "sentiment": {
+                  "textblob_comments_rate": 0.09523809523809523,
+                  "vader_comments_rate": -0.5106,
+                  "spacy_comments_rate": 0.09523809523809523,
+                  "total_comments_rate": -0.10670793650793653
                 }
               },
               {
@@ -2329,21 +2293,21 @@
                 }
               },
               {
+                "id": "gu1p9xj",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.504,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.168
+                }
+              },
+              {
                 "id": "gu07eci",
                 "sentiment": {
                   "textblob_comments_rate": 0.1585,
                   "vader_comments_rate": 0.8622,
                   "spacy_comments_rate": 0.1585,
                   "total_comments_rate": 0.3930666666666667
-                }
-              },
-              {
-                "id": "gu1tmxy",
-                "sentiment": {
-                  "textblob_comments_rate": -0.6999999999999998,
-                  "vader_comments_rate": -0.7746,
-                  "spacy_comments_rate": -0.6999999999999998,
-                  "total_comments_rate": -0.7248666666666664
                 }
               },
               {
@@ -2374,6 +2338,96 @@
                 }
               },
               {
+                "id": "gu09i4i",
+                "sentiment": {
+                  "textblob_comments_rate": -0.8,
+                  "vader_comments_rate": -0.5719,
+                  "spacy_comments_rate": -0.8,
+                  "total_comments_rate": -0.7239666666666666
+                }
+              },
+              {
+                "id": "gu1tmxy",
+                "sentiment": {
+                  "textblob_comments_rate": -0.6999999999999998,
+                  "vader_comments_rate": -0.7746,
+                  "spacy_comments_rate": -0.6999999999999998,
+                  "total_comments_rate": -0.7248666666666664
+                }
+              },
+              {
+                "id": "gtzu58g",
+                "sentiment": {
+                  "textblob_comments_rate": -0.6875,
+                  "vader_comments_rate": 0.1261,
+                  "spacy_comments_rate": -0.6875,
+                  "total_comments_rate": -0.41629999999999995
+                }
+              },
+              {
+                "id": "gu21v7j",
+                "sentiment": {
+                  "textblob_comments_rate": 0.16574074074074072,
+                  "vader_comments_rate": 0.8971,
+                  "spacy_comments_rate": 0.16574074074074072,
+                  "total_comments_rate": 0.40952716049382715
+                }
+              },
+              {
+                "id": "gu1fs1o",
+                "sentiment": {
+                  "textblob_comments_rate": -3.0839528461809905e-17,
+                  "vader_comments_rate": 0.8718,
+                  "spacy_comments_rate": -3.0839528461809905e-17,
+                  "total_comments_rate": 0.2906
+                }
+              },
+              {
+                "id": "gtzleyb",
+                "sentiment": {
+                  "textblob_comments_rate": -0.2,
+                  "vader_comments_rate": -0.6249,
+                  "spacy_comments_rate": -0.2,
+                  "total_comments_rate": -0.3416333333333333
+                }
+              },
+              {
+                "id": "gtzyeq3",
+                "sentiment": {
+                  "textblob_comments_rate": 0.178,
+                  "vader_comments_rate": 0.6124,
+                  "spacy_comments_rate": 0.178,
+                  "total_comments_rate": 0.3228
+                }
+              },
+              {
+                "id": "gu1rqsr",
+                "sentiment": {
+                  "textblob_comments_rate": 0.1527777777777778,
+                  "vader_comments_rate": -0.7094,
+                  "spacy_comments_rate": 0.1527777777777778,
+                  "total_comments_rate": -0.13461481481481483
+                }
+              },
+              {
+                "id": "gu008ik",
+                "sentiment": {
+                  "textblob_comments_rate": 0.07428571428571427,
+                  "vader_comments_rate": 0.8306,
+                  "spacy_comments_rate": 0.07428571428571427,
+                  "total_comments_rate": 0.3263904761904762
+                }
+              },
+              {
+                "id": "gtzv300",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.1027,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.03423333333333333
+                }
+              },
+              {
                 "id": "gu1sigr",
                 "sentiment": {
                   "textblob_comments_rate": 0.4,
@@ -2392,6 +2446,42 @@
                 }
               },
               {
+                "id": "gtzxaeq",
+                "sentiment": {
+                  "textblob_comments_rate": -0.2,
+                  "vader_comments_rate": 0.4019,
+                  "spacy_comments_rate": -0.2,
+                  "total_comments_rate": 0.0006333333333333191
+                }
+              },
+              {
+                "id": "gtzyc3y",
+                "sentiment": {
+                  "textblob_comments_rate": -0.11666666666666665,
+                  "vader_comments_rate": 0.104,
+                  "spacy_comments_rate": -0.11666666666666665,
+                  "total_comments_rate": -0.0431111111111111
+                }
+              },
+              {
+                "id": "gu0gv0z",
+                "sentiment": {
+                  "textblob_comments_rate": 0.04444444444444442,
+                  "vader_comments_rate": -0.2023,
+                  "spacy_comments_rate": 0.04444444444444442,
+                  "total_comments_rate": -0.03780370370370372
+                }
+              },
+              {
+                "id": "gtzlq5a",
+                "sentiment": {
+                  "textblob_comments_rate": -0.19444444444444448,
+                  "vader_comments_rate": -0.6239,
+                  "spacy_comments_rate": -0.19444444444444448,
+                  "total_comments_rate": -0.33759629629629634
+                }
+              },
+              {
                 "id": "h5d5gv5",
                 "sentiment": {
                   "textblob_comments_rate": 0.6,
@@ -2401,75 +2491,57 @@
                 }
               },
               {
-                "id": "gu21v7j",
+                "id": "gu1mvj8",
                 "sentiment": {
-                  "textblob_comments_rate": 0.16574074074074072,
-                  "vader_comments_rate": 0.8971,
-                  "spacy_comments_rate": 0.16574074074074072,
-                  "total_comments_rate": 0.40952716049382715
+                  "textblob_comments_rate": -0.09999999999999998,
+                  "vader_comments_rate": -0.5709,
+                  "spacy_comments_rate": -0.09999999999999998,
+                  "total_comments_rate": -0.2569666666666666
                 }
               },
               {
-                "id": "gu008ik",
+                "id": "gu1bp34",
                 "sentiment": {
-                  "textblob_comments_rate": 0.07428571428571427,
-                  "vader_comments_rate": 0.8306,
-                  "spacy_comments_rate": 0.07428571428571427,
-                  "total_comments_rate": 0.3263904761904762
+                  "textblob_comments_rate": -0.7142857142857143,
+                  "vader_comments_rate": 0.1556,
+                  "spacy_comments_rate": -0.7142857142857143,
+                  "total_comments_rate": -0.42432380952380955
                 }
               },
               {
-                "id": "gu1rqsr",
+                "id": "gu0wdvm",
                 "sentiment": {
-                  "textblob_comments_rate": 0.1527777777777778,
-                  "vader_comments_rate": -0.7094,
-                  "spacy_comments_rate": 0.1527777777777778,
-                  "total_comments_rate": -0.13461481481481483
-                }
-              },
-              {
-                "id": "gu09i4i",
-                "sentiment": {
-                  "textblob_comments_rate": -0.8,
-                  "vader_comments_rate": -0.5719,
-                  "spacy_comments_rate": -0.8,
-                  "total_comments_rate": -0.7239666666666666
-                }
-              },
-              {
-                "id": "gtzleyb",
-                "sentiment": {
-                  "textblob_comments_rate": -0.2,
+                  "textblob_comments_rate": 0.06833333333333333,
                   "vader_comments_rate": -0.6249,
-                  "spacy_comments_rate": -0.2,
-                  "total_comments_rate": -0.3416333333333333
+                  "spacy_comments_rate": 0.06833333333333333,
+                  "total_comments_rate": -0.16274444444444444
                 }
               },
               {
-                "id": "gtzu58g",
+                "id": "gu1xmqw",
                 "sentiment": {
-                  "textblob_comments_rate": -0.6875,
-                  "vader_comments_rate": 0.1261,
-                  "spacy_comments_rate": -0.6875,
-                  "total_comments_rate": -0.41629999999999995
+                  "textblob_comments_rate": -0.10000000000000003,
+                  "vader_comments_rate": -0.6319,
+                  "spacy_comments_rate": -0.10000000000000003,
+                  "total_comments_rate": -0.27730000000000005
                 }
               },
               {
-                "id": "gtzyeq3",
+                "id": "gu0k0t6",
                 "sentiment": {
-                  "textblob_comments_rate": 0.178,
-                  "vader_comments_rate": 0.6124,
-                  "spacy_comments_rate": 0.178,
-                  "total_comments_rate": 0.3228
+                  "textblob_comments_rate": -0.49444444444444446,
+                  "vader_comments_rate": -0.9898,
+                  "spacy_comments_rate": -0.49444444444444446,
+                  "total_comments_rate": -0.659562962962963
                 }
               },
               {
-                "id": "gu1fs1o",
+                "id": "gtzvriw",
                 "sentiment": {
-                  "textblob_comments_rate": -3.0839528461809905e-17,
-                  "vader_comments_rate": 0.8718,
-                  "spacy_comments_rate": -3.0839528461809905e-17,
-                  "total_comments_rate": 0.2906
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
@@ -2509,87 +2581,6 @@
                 }
               },
               {
-                "id": "gtzv300",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": -0.1027,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": -0.03423333333333333
-                }
-              },
-              {
-                "id": "gu0gv0z",
-                "sentiment": {
-                  "textblob_comments_rate": 0.04444444444444442,
-                  "vader_comments_rate": -0.2023,
-                  "spacy_comments_rate": 0.04444444444444442,
-                  "total_comments_rate": -0.03780370370370372
-                }
-              },
-              {
-                "id": "gu0wdvm",
-                "sentiment": {
-                  "textblob_comments_rate": 0.06833333333333333,
-                  "vader_comments_rate": -0.6249,
-                  "spacy_comments_rate": 0.06833333333333333,
-                  "total_comments_rate": -0.16274444444444444
-                }
-              },
-              {
-                "id": "gu1xmqw",
-                "sentiment": {
-                  "textblob_comments_rate": -0.10000000000000003,
-                  "vader_comments_rate": -0.6319,
-                  "spacy_comments_rate": -0.10000000000000003,
-                  "total_comments_rate": -0.27730000000000005
-                }
-              },
-              {
-                "id": "gtzyc3y",
-                "sentiment": {
-                  "textblob_comments_rate": -0.11666666666666665,
-                  "vader_comments_rate": 0.104,
-                  "spacy_comments_rate": -0.11666666666666665,
-                  "total_comments_rate": -0.0431111111111111
-                }
-              },
-              {
-                "id": "gtzxaeq",
-                "sentiment": {
-                  "textblob_comments_rate": -0.2,
-                  "vader_comments_rate": 0.4019,
-                  "spacy_comments_rate": -0.2,
-                  "total_comments_rate": 0.0006333333333333191
-                }
-              },
-              {
-                "id": "gu1mvj8",
-                "sentiment": {
-                  "textblob_comments_rate": -0.09999999999999998,
-                  "vader_comments_rate": -0.5709,
-                  "spacy_comments_rate": -0.09999999999999998,
-                  "total_comments_rate": -0.2569666666666666
-                }
-              },
-              {
-                "id": "gu1bp34",
-                "sentiment": {
-                  "textblob_comments_rate": -0.7142857142857143,
-                  "vader_comments_rate": 0.1556,
-                  "spacy_comments_rate": -0.7142857142857143,
-                  "total_comments_rate": -0.42432380952380955
-                }
-              },
-              {
-                "id": "gtzlq5a",
-                "sentiment": {
-                  "textblob_comments_rate": -0.19444444444444448,
-                  "vader_comments_rate": -0.6239,
-                  "spacy_comments_rate": -0.19444444444444448,
-                  "total_comments_rate": -0.33759629629629634
-                }
-              },
-              {
                 "id": "gu0teds",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -2614,6 +2605,51 @@
                   "vader_comments_rate": 0.2263,
                   "spacy_comments_rate": 0.04999999999999999,
                   "total_comments_rate": 0.10876666666666666
+                }
+              },
+              {
+                "id": "gtzyt2v",
+                "sentiment": {
+                  "textblob_comments_rate": 0.2828571428571428,
+                  "vader_comments_rate": 0.25,
+                  "spacy_comments_rate": 0.2828571428571428,
+                  "total_comments_rate": 0.27190476190476187
+                }
+              },
+              {
+                "id": "gtztd17",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.1779,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0593
+                }
+              },
+              {
+                "id": "gtzz6p3",
+                "sentiment": {
+                  "textblob_comments_rate": -0.06742424242424244,
+                  "vader_comments_rate": -0.128,
+                  "spacy_comments_rate": -0.06742424242424244,
+                  "total_comments_rate": -0.08761616161616163
+                }
+              },
+              {
+                "id": "gtzn4v4",
+                "sentiment": {
+                  "textblob_comments_rate": 0.22354166666666667,
+                  "vader_comments_rate": 0.9947,
+                  "spacy_comments_rate": 0.22354166666666667,
+                  "total_comments_rate": 0.4805944444444445
+                }
+              },
+              {
+                "id": "gtzs1jy",
+                "sentiment": {
+                  "textblob_comments_rate": 0.08076765188834152,
+                  "vader_comments_rate": 0.9546,
+                  "spacy_comments_rate": 0.08076765188834152,
+                  "total_comments_rate": 0.37204510125889434
                 }
               },
               {
@@ -2671,42 +2707,6 @@
                 }
               },
               {
-                "id": "gtztd17",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.1779,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0593
-                }
-              },
-              {
-                "id": "gtzvriw",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "gu0k0t6",
-                "sentiment": {
-                  "textblob_comments_rate": -0.49444444444444446,
-                  "vader_comments_rate": -0.9898,
-                  "spacy_comments_rate": -0.49444444444444446,
-                  "total_comments_rate": -0.659562962962963
-                }
-              },
-              {
-                "id": "gtzyt2v",
-                "sentiment": {
-                  "textblob_comments_rate": 0.2828571428571428,
-                  "vader_comments_rate": 0.25,
-                  "spacy_comments_rate": 0.2828571428571428,
-                  "total_comments_rate": 0.27190476190476187
-                }
-              },
-              {
                 "id": "gtzlcp2",
                 "sentiment": {
                   "textblob_comments_rate": -0.13749999999999996,
@@ -2725,42 +2725,6 @@
                 }
               },
               {
-                "id": "gu04qcv",
-                "sentiment": {
-                  "textblob_comments_rate": 0.7,
-                  "vader_comments_rate": 0.7227,
-                  "spacy_comments_rate": 0.7,
-                  "total_comments_rate": 0.7075666666666667
-                }
-              },
-              {
-                "id": "gtzz6p3",
-                "sentiment": {
-                  "textblob_comments_rate": -0.06742424242424244,
-                  "vader_comments_rate": -0.128,
-                  "spacy_comments_rate": -0.06742424242424244,
-                  "total_comments_rate": -0.08761616161616163
-                }
-              },
-              {
-                "id": "gtzn4v4",
-                "sentiment": {
-                  "textblob_comments_rate": 0.22354166666666667,
-                  "vader_comments_rate": 0.9947,
-                  "spacy_comments_rate": 0.22354166666666667,
-                  "total_comments_rate": 0.4805944444444445
-                }
-              },
-              {
-                "id": "gtzs1jy",
-                "sentiment": {
-                  "textblob_comments_rate": 0.08076765188834152,
-                  "vader_comments_rate": 0.9546,
-                  "spacy_comments_rate": 0.08076765188834152,
-                  "total_comments_rate": 0.37204510125889434
-                }
-              },
-              {
                 "id": "gtzo7j2",
                 "sentiment": {
                   "textblob_comments_rate": 0.18333333333333335,
@@ -2770,12 +2734,21 @@
                 }
               },
               {
-                "id": "gtzxp8r",
+                "id": "gu04qcv",
                 "sentiment": {
-                  "textblob_comments_rate": -0.21250000000000002,
-                  "vader_comments_rate": 0.821,
-                  "spacy_comments_rate": -0.21250000000000002,
-                  "total_comments_rate": 0.13199999999999998
+                  "textblob_comments_rate": 0.7,
+                  "vader_comments_rate": 0.7227,
+                  "spacy_comments_rate": 0.7,
+                  "total_comments_rate": 0.7075666666666667
+                }
+              },
+              {
+                "id": "gu00crk",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.5803,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.19343333333333335
                 }
               },
               {
@@ -2788,12 +2761,111 @@
                 }
               },
               {
+                "id": "gtzxp8r",
+                "sentiment": {
+                  "textblob_comments_rate": -0.21250000000000002,
+                  "vader_comments_rate": 0.821,
+                  "spacy_comments_rate": -0.21250000000000002,
+                  "total_comments_rate": 0.13199999999999998
+                }
+              },
+              {
+                "id": "gu03rj5",
+                "sentiment": {
+                  "textblob_comments_rate": 0.09933862433862435,
+                  "vader_comments_rate": 0.9836,
+                  "spacy_comments_rate": 0.09933862433862435,
+                  "total_comments_rate": 0.39409241622574953
+                }
+              },
+              {
                 "id": "gu1nu3t",
                 "sentiment": {
                   "textblob_comments_rate": 0.1045238095238095,
                   "vader_comments_rate": 0.7874,
                   "spacy_comments_rate": 0.1045238095238095,
                   "total_comments_rate": 0.3321492063492063
+                }
+              },
+              {
+                "id": "gtznboh",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.3724,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.12413333333333333
+                }
+              },
+              {
+                "id": "gtzxt59",
+                "sentiment": {
+                  "textblob_comments_rate": 1.0,
+                  "vader_comments_rate": 0.5093,
+                  "spacy_comments_rate": 1.0,
+                  "total_comments_rate": 0.8364333333333334
+                }
+              },
+              {
+                "id": "gtzzg36",
+                "sentiment": {
+                  "textblob_comments_rate": 0.09999999999999999,
+                  "vader_comments_rate": 0.8885,
+                  "spacy_comments_rate": 0.09999999999999999,
+                  "total_comments_rate": 0.36283333333333334
+                }
+              },
+              {
+                "id": "gu03ndp",
+                "sentiment": {
+                  "textblob_comments_rate": -0.3,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": -0.3,
+                  "total_comments_rate": -0.19999999999999998
+                }
+              },
+              {
+                "id": "gu0563f",
+                "sentiment": {
+                  "textblob_comments_rate": 0.04545454545454545,
+                  "vader_comments_rate": -0.1225,
+                  "spacy_comments_rate": 0.04545454545454545,
+                  "total_comments_rate": -0.010530303030303036
+                }
+              },
+              {
+                "id": "gtzsh8b",
+                "sentiment": {
+                  "textblob_comments_rate": 0.375,
+                  "vader_comments_rate": 0.5574,
+                  "spacy_comments_rate": 0.375,
+                  "total_comments_rate": 0.43579999999999997
+                }
+              },
+              {
+                "id": "gtznlu7",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gtzutfk",
+                "sentiment": {
+                  "textblob_comments_rate": 0.5,
+                  "vader_comments_rate": -0.0516,
+                  "spacy_comments_rate": 0.5,
+                  "total_comments_rate": 0.3161333333333333
+                }
+              },
+              {
+                "id": "gu01u9u",
+                "sentiment": {
+                  "textblob_comments_rate": -0.35000000000000003,
+                  "vader_comments_rate": -0.8834,
+                  "spacy_comments_rate": -0.35000000000000003,
+                  "total_comments_rate": -0.5278
                 }
               },
               {
@@ -3958,87 +4030,6 @@
                 }
               },
               {
-                "id": "gu00crk",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": -0.5803,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": -0.19343333333333335
-                }
-              },
-              {
-                "id": "gtzzg36",
-                "sentiment": {
-                  "textblob_comments_rate": 0.09999999999999999,
-                  "vader_comments_rate": 0.8885,
-                  "spacy_comments_rate": 0.09999999999999999,
-                  "total_comments_rate": 0.36283333333333334
-                }
-              },
-              {
-                "id": "gu03ndp",
-                "sentiment": {
-                  "textblob_comments_rate": -0.3,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": -0.3,
-                  "total_comments_rate": -0.19999999999999998
-                }
-              },
-              {
-                "id": "gu0563f",
-                "sentiment": {
-                  "textblob_comments_rate": 0.04545454545454545,
-                  "vader_comments_rate": -0.1225,
-                  "spacy_comments_rate": 0.04545454545454545,
-                  "total_comments_rate": -0.010530303030303036
-                }
-              },
-              {
-                "id": "gtznboh",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.3724,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.12413333333333333
-                }
-              },
-              {
-                "id": "gtzxt59",
-                "sentiment": {
-                  "textblob_comments_rate": 1.0,
-                  "vader_comments_rate": 0.5093,
-                  "spacy_comments_rate": 1.0,
-                  "total_comments_rate": 0.8364333333333334
-                }
-              },
-              {
-                "id": "gu03rj5",
-                "sentiment": {
-                  "textblob_comments_rate": 0.09933862433862435,
-                  "vader_comments_rate": 0.9836,
-                  "spacy_comments_rate": 0.09933862433862435,
-                  "total_comments_rate": 0.39409241622574953
-                }
-              },
-              {
-                "id": "gtzutfk",
-                "sentiment": {
-                  "textblob_comments_rate": 0.5,
-                  "vader_comments_rate": -0.0516,
-                  "spacy_comments_rate": 0.5,
-                  "total_comments_rate": 0.3161333333333333
-                }
-              },
-              {
-                "id": "gtznlu7",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
                 "id": "gtznvju",
                 "sentiment": {
                   "textblob_comments_rate": 0.31666666666666665,
@@ -4048,21 +4039,12 @@
                 }
               },
               {
-                "id": "gu02kjp",
+                "id": "gu01jwt",
                 "sentiment": {
-                  "textblob_comments_rate": -0.8,
-                  "vader_comments_rate": -0.7346,
-                  "spacy_comments_rate": -0.8,
-                  "total_comments_rate": -0.7782
-                }
-              },
-              {
-                "id": "gu01u9u",
-                "sentiment": {
-                  "textblob_comments_rate": -0.35000000000000003,
-                  "vader_comments_rate": -0.8834,
-                  "spacy_comments_rate": -0.35000000000000003,
-                  "total_comments_rate": -0.5278
+                  "textblob_comments_rate": 0.55,
+                  "vader_comments_rate": 0.8429,
+                  "spacy_comments_rate": 0.55,
+                  "total_comments_rate": 0.6476333333333334
                 }
               },
               {
@@ -4075,12 +4057,21 @@
                 }
               },
               {
-                "id": "gtzsh8b",
+                "id": "gtzyx95",
                 "sentiment": {
-                  "textblob_comments_rate": 0.375,
-                  "vader_comments_rate": 0.5574,
-                  "spacy_comments_rate": 0.375,
-                  "total_comments_rate": 0.43579999999999997
+                  "textblob_comments_rate": 0.23300189393939394,
+                  "vader_comments_rate": 0.9676,
+                  "spacy_comments_rate": 0.23300189393939394,
+                  "total_comments_rate": 0.47786792929292926
+                }
+              },
+              {
+                "id": "gtzltav",
+                "sentiment": {
+                  "textblob_comments_rate": 0.288888888888889,
+                  "vader_comments_rate": 0.7339,
+                  "spacy_comments_rate": 0.288888888888889,
+                  "total_comments_rate": 0.43722592592592596
                 }
               },
               {
@@ -4117,15 +4108,6 @@
                   "vader_comments_rate": 0.2263,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.07543333333333334
-                }
-              },
-              {
-                "id": "gtzyx95",
-                "sentiment": {
-                  "textblob_comments_rate": 0.23300189393939394,
-                  "vader_comments_rate": 0.9676,
-                  "spacy_comments_rate": 0.23300189393939394,
-                  "total_comments_rate": 0.47786792929292926
                 }
               },
               {
@@ -4192,30 +4174,12 @@
                 }
               },
               {
-                "id": "gtzltav",
-                "sentiment": {
-                  "textblob_comments_rate": 0.288888888888889,
-                  "vader_comments_rate": 0.7339,
-                  "spacy_comments_rate": 0.288888888888889,
-                  "total_comments_rate": 0.43722592592592596
-                }
-              },
-              {
                 "id": "gu009lt",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": -0.0572,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": -0.019066666666666666
-                }
-              },
-              {
-                "id": "gu01jwt",
-                "sentiment": {
-                  "textblob_comments_rate": 0.55,
-                  "vader_comments_rate": 0.8429,
-                  "spacy_comments_rate": 0.55,
-                  "total_comments_rate": 0.6476333333333334
                 }
               },
               {
@@ -4228,12 +4192,12 @@
                 }
               },
               {
-                "id": "gu0773d",
+                "id": "gu02kjp",
                 "sentiment": {
-                  "textblob_comments_rate": 0.11916666666666664,
-                  "vader_comments_rate": 0.9631,
-                  "spacy_comments_rate": 0.11916666666666664,
-                  "total_comments_rate": 0.4004777777777777
+                  "textblob_comments_rate": -0.8,
+                  "vader_comments_rate": -0.7346,
+                  "spacy_comments_rate": -0.8,
+                  "total_comments_rate": -0.7782
                 }
               },
               {
@@ -4270,6 +4234,15 @@
                   "vader_comments_rate": -0.631,
                   "spacy_comments_rate": 0.04999999999999999,
                   "total_comments_rate": -0.17699999999999996
+                }
+              },
+              {
+                "id": "gu0773d",
+                "sentiment": {
+                  "textblob_comments_rate": 0.11916666666666664,
+                  "vader_comments_rate": 0.9631,
+                  "spacy_comments_rate": 0.11916666666666664,
+                  "total_comments_rate": 0.4004777777777777
                 }
               },
               {
@@ -4341,10 +4314,10 @@
               "vader_post_rate": 0.9711,
               "spacy_post_rate": 0.004166666666666646,
               "total_post_rate": 0.32647777777777776,
-              "textblob_comments_rate": 0.039364518917539476,
+              "textblob_comments_rate": 0.03936451891753944,
               "vader_comments_rate": 0.13195999999999994,
-              "spacy_comments_rate": 0.039364518917539476,
-              "total_comments_rate": 0.07022967927835964
+              "spacy_comments_rate": 0.03936451891753944,
+              "total_comments_rate": 0.07022967927835966
             }
           },
           {
@@ -4388,15 +4361,6 @@
                 }
               },
               {
-                "id": "hiv9z1s",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": -0.5267,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": -0.17556666666666665
-                }
-              },
-              {
                 "id": "hivd3t8",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -4406,21 +4370,21 @@
                 }
               },
               {
+                "id": "hiv9z1s",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.5267,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.17556666666666665
+                }
+              },
+              {
                 "id": "hivha2d",
                 "sentiment": {
                   "textblob_comments_rate": 0.04999999999999999,
                   "vader_comments_rate": 0.4404,
                   "spacy_comments_rate": 0.04999999999999999,
                   "total_comments_rate": 0.18013333333333334
-                }
-              },
-              {
-                "id": "hiv8fxo",
-                "sentiment": {
-                  "textblob_comments_rate": 0.5,
-                  "vader_comments_rate": -0.1531,
-                  "spacy_comments_rate": 0.5,
-                  "total_comments_rate": 0.2823
                 }
               },
               {
@@ -4439,6 +4403,15 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hiv8fxo",
+                "sentiment": {
+                  "textblob_comments_rate": 0.5,
+                  "vader_comments_rate": -0.1531,
+                  "spacy_comments_rate": 0.5,
+                  "total_comments_rate": 0.2823
                 }
               },
               {
@@ -4505,12 +4478,12 @@
                 }
               },
               {
-                "id": "hivc2op",
+                "id": "hivb3ip",
                 "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
+                  "textblob_comments_rate": 0.8,
+                  "vader_comments_rate": 0.4215,
+                  "spacy_comments_rate": 0.8,
+                  "total_comments_rate": 0.6738333333333334
                 }
               },
               {
@@ -4520,15 +4493,6 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "hivb3ip",
-                "sentiment": {
-                  "textblob_comments_rate": 0.8,
-                  "vader_comments_rate": 0.4215,
-                  "spacy_comments_rate": 0.8,
-                  "total_comments_rate": 0.6738333333333334
                 }
               },
               {
@@ -4550,16 +4514,7 @@
                 }
               },
               {
-                "id": "hivbu30",
-                "sentiment": {
-                  "textblob_comments_rate": -0.31999999999999995,
-                  "vader_comments_rate": 0.5859,
-                  "spacy_comments_rate": -0.31999999999999995,
-                  "total_comments_rate": -0.018033333333333307
-                }
-              },
-              {
-                "id": "hj0ibrf",
+                "id": "hivc2op",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
@@ -4586,12 +4541,12 @@
                 }
               },
               {
-                "id": "hivhzec",
+                "id": "hiv8d4v",
                 "sentiment": {
-                  "textblob_comments_rate": -0.1,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": -0.1,
-                  "total_comments_rate": -0.06666666666666667
+                  "textblob_comments_rate": 0.4452380952380952,
+                  "vader_comments_rate": 0.4003,
+                  "spacy_comments_rate": 0.4452380952380952,
+                  "total_comments_rate": 0.4302587301587302
                 }
               },
               {
@@ -4604,21 +4559,30 @@
                 }
               },
               {
-                "id": "hiv8d4v",
+                "id": "hivhzec",
                 "sentiment": {
-                  "textblob_comments_rate": 0.4452380952380952,
-                  "vader_comments_rate": 0.4003,
-                  "spacy_comments_rate": 0.4452380952380952,
-                  "total_comments_rate": 0.4302587301587302
+                  "textblob_comments_rate": -0.1,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": -0.1,
+                  "total_comments_rate": -0.06666666666666667
                 }
               },
               {
-                "id": "hiwcnc4",
+                "id": "hivbu30",
                 "sentiment": {
-                  "textblob_comments_rate": -0.05636363636363637,
-                  "vader_comments_rate": 0.25,
-                  "spacy_comments_rate": -0.05636363636363637,
-                  "total_comments_rate": 0.045757575757575754
+                  "textblob_comments_rate": -0.31999999999999995,
+                  "vader_comments_rate": 0.5859,
+                  "spacy_comments_rate": -0.31999999999999995,
+                  "total_comments_rate": -0.018033333333333307
+                }
+              },
+              {
+                "id": "hiv8mti",
+                "sentiment": {
+                  "textblob_comments_rate": -0.1,
+                  "vader_comments_rate": 0.1901,
+                  "spacy_comments_rate": -0.1,
+                  "total_comments_rate": -0.0033000000000000065
                 }
               },
               {
@@ -4640,48 +4604,12 @@
                 }
               },
               {
-                "id": "hiv8mti",
-                "sentiment": {
-                  "textblob_comments_rate": -0.1,
-                  "vader_comments_rate": 0.1901,
-                  "spacy_comments_rate": -0.1,
-                  "total_comments_rate": -0.0033000000000000065
-                }
-              },
-              {
-                "id": "hiy148v",
+                "id": "hj0ibrf",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "hiy0rhs",
-                "sentiment": {
-                  "textblob_comments_rate": -0.08333333333333334,
-                  "vader_comments_rate": -0.7129,
-                  "spacy_comments_rate": -0.08333333333333334,
-                  "total_comments_rate": -0.2931888888888889
-                }
-              },
-              {
-                "id": "hiy0659",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": -0.8126,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": -0.27086666666666664
-                }
-              },
-              {
-                "id": "hiv8npb",
-                "sentiment": {
-                  "textblob_comments_rate": -0.13124999999999998,
-                  "vader_comments_rate": 0.3875,
-                  "spacy_comments_rate": -0.13124999999999998,
-                  "total_comments_rate": 0.041666666666666685
                 }
               },
               {
@@ -4703,6 +4631,132 @@
                 }
               },
               {
+                "id": "hivaggs",
+                "sentiment": {
+                  "textblob_comments_rate": 0.37777777777777777,
+                  "vader_comments_rate": 0.8217,
+                  "spacy_comments_rate": 0.37777777777777777,
+                  "total_comments_rate": 0.5257518518518518
+                }
+              },
+              {
+                "id": "hiv8npb",
+                "sentiment": {
+                  "textblob_comments_rate": -0.13124999999999998,
+                  "vader_comments_rate": 0.3875,
+                  "spacy_comments_rate": -0.13124999999999998,
+                  "total_comments_rate": 0.041666666666666685
+                }
+              },
+              {
+                "id": "hiv834d",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.3612,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.12040000000000001
+                }
+              },
+              {
+                "id": "hiwcnc4",
+                "sentiment": {
+                  "textblob_comments_rate": -0.05636363636363637,
+                  "vader_comments_rate": 0.25,
+                  "spacy_comments_rate": -0.05636363636363637,
+                  "total_comments_rate": 0.045757575757575754
+                }
+              },
+              {
+                "id": "hiv8gv2",
+                "sentiment": {
+                  "textblob_comments_rate": -0.3233333333333333,
+                  "vader_comments_rate": -0.8218,
+                  "spacy_comments_rate": -0.3233333333333333,
+                  "total_comments_rate": -0.48948888888888886
+                }
+              },
+              {
+                "id": "hiv9cje",
+                "sentiment": {
+                  "textblob_comments_rate": 0.2,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.2,
+                  "total_comments_rate": 0.13333333333333333
+                }
+              },
+              {
+                "id": "hiy148v",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hivasdf",
+                "sentiment": {
+                  "textblob_comments_rate": 0.25,
+                  "vader_comments_rate": 0.0258,
+                  "spacy_comments_rate": 0.25,
+                  "total_comments_rate": 0.17526666666666668
+                }
+              },
+              {
+                "id": "hiy0rhs",
+                "sentiment": {
+                  "textblob_comments_rate": -0.08333333333333334,
+                  "vader_comments_rate": -0.7129,
+                  "spacy_comments_rate": -0.08333333333333334,
+                  "total_comments_rate": -0.2931888888888889
+                }
+              },
+              {
+                "id": "hiw2kvu",
+                "sentiment": {
+                  "textblob_comments_rate": 1.0,
+                  "vader_comments_rate": -0.5859,
+                  "spacy_comments_rate": 1.0,
+                  "total_comments_rate": 0.47136666666666666
+                }
+              },
+              {
+                "id": "hivdgi2",
+                "sentiment": {
+                  "textblob_comments_rate": -0.26666666666666666,
+                  "vader_comments_rate": -0.8885,
+                  "spacy_comments_rate": -0.26666666666666666,
+                  "total_comments_rate": -0.47394444444444445
+                }
+              },
+              {
+                "id": "hiy0659",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.8126,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.27086666666666664
+                }
+              },
+              {
+                "id": "hivdw03",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hiv7u65",
+                "sentiment": {
+                  "textblob_comments_rate": -0.7,
+                  "vader_comments_rate": -0.3182,
+                  "spacy_comments_rate": -0.7,
+                  "total_comments_rate": -0.5727333333333333
+                }
+              },
+              {
                 "id": "hivcdrn",
                 "sentiment": {
                   "textblob_comments_rate": 0.07500000000000001,
@@ -4721,39 +4775,21 @@
                 }
               },
               {
-                "id": "hiv9cje",
+                "id": "hiv9ic4",
                 "sentiment": {
-                  "textblob_comments_rate": 0.2,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.2,
-                  "total_comments_rate": 0.13333333333333333
+                  "textblob_comments_rate": 0.6,
+                  "vader_comments_rate": 0.296,
+                  "spacy_comments_rate": 0.6,
+                  "total_comments_rate": 0.49866666666666665
                 }
               },
               {
-                "id": "hivaggs",
+                "id": "hiv81y5",
                 "sentiment": {
-                  "textblob_comments_rate": 0.37777777777777777,
-                  "vader_comments_rate": 0.8217,
-                  "spacy_comments_rate": 0.37777777777777777,
-                  "total_comments_rate": 0.5257518518518518
-                }
-              },
-              {
-                "id": "hivasdf",
-                "sentiment": {
-                  "textblob_comments_rate": 0.25,
-                  "vader_comments_rate": 0.0258,
-                  "spacy_comments_rate": 0.25,
-                  "total_comments_rate": 0.17526666666666668
-                }
-              },
-              {
-                "id": "hiv834d",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.3612,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.12040000000000001
+                  "textblob_comments_rate": 0.85,
+                  "vader_comments_rate": 0.6361,
+                  "spacy_comments_rate": 0.85,
+                  "total_comments_rate": 0.7787000000000001
                 }
               },
               {
@@ -4766,48 +4802,48 @@
                 }
               },
               {
-                "id": "hiw2kvu",
-                "sentiment": {
-                  "textblob_comments_rate": 1.0,
-                  "vader_comments_rate": -0.5859,
-                  "spacy_comments_rate": 1.0,
-                  "total_comments_rate": 0.47136666666666666
-                }
-              },
-              {
-                "id": "hiv8gv2",
-                "sentiment": {
-                  "textblob_comments_rate": -0.3233333333333333,
-                  "vader_comments_rate": -0.8218,
-                  "spacy_comments_rate": -0.3233333333333333,
-                  "total_comments_rate": -0.48948888888888886
-                }
-              },
-              {
-                "id": "hivdgi2",
-                "sentiment": {
-                  "textblob_comments_rate": -0.26666666666666666,
-                  "vader_comments_rate": -0.8885,
-                  "spacy_comments_rate": -0.26666666666666666,
-                  "total_comments_rate": -0.47394444444444445
-                }
-              },
-              {
-                "id": "hiv9ic4",
-                "sentiment": {
-                  "textblob_comments_rate": 0.6,
-                  "vader_comments_rate": 0.296,
-                  "spacy_comments_rate": 0.6,
-                  "total_comments_rate": 0.49866666666666665
-                }
-              },
-              {
-                "id": "hivdw03",
+                "id": "hivplk9",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hiy6564",
+                "sentiment": {
+                  "textblob_comments_rate": 0.13,
+                  "vader_comments_rate": 0.3724,
+                  "spacy_comments_rate": 0.13,
+                  "total_comments_rate": 0.2108
+                }
+              },
+              {
+                "id": "hivj3oi",
+                "sentiment": {
+                  "textblob_comments_rate": 0.29500000000000004,
+                  "vader_comments_rate": 0.9491,
+                  "spacy_comments_rate": 0.29500000000000004,
+                  "total_comments_rate": 0.5130333333333333
+                }
+              },
+              {
+                "id": "hivbvk3",
+                "sentiment": {
+                  "textblob_comments_rate": 0.2857142857142857,
+                  "vader_comments_rate": -0.296,
+                  "spacy_comments_rate": 0.2857142857142857,
+                  "total_comments_rate": 0.0918095238095238
+                }
+              },
+              {
+                "id": "hivcc2f",
+                "sentiment": {
+                  "textblob_comments_rate": 0.03214285714285714,
+                  "vader_comments_rate": 0.875,
+                  "spacy_comments_rate": 0.03214285714285714,
+                  "total_comments_rate": 0.3130952380952381
                 }
               },
               {
@@ -4838,48 +4874,21 @@
                 }
               },
               {
-                "id": "hivplk9",
+                "id": "hivawf4",
                 "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
+                  "textblob_comments_rate": -0.27291666666666664,
+                  "vader_comments_rate": 0.25,
+                  "spacy_comments_rate": -0.27291666666666664,
+                  "total_comments_rate": -0.0986111111111111
                 }
               },
               {
-                "id": "hiv7u65",
+                "id": "hivcu0u",
                 "sentiment": {
-                  "textblob_comments_rate": -0.7,
-                  "vader_comments_rate": -0.3182,
-                  "spacy_comments_rate": -0.7,
-                  "total_comments_rate": -0.5727333333333333
-                }
-              },
-              {
-                "id": "hiy6564",
-                "sentiment": {
-                  "textblob_comments_rate": 0.13,
-                  "vader_comments_rate": 0.3724,
-                  "spacy_comments_rate": 0.13,
-                  "total_comments_rate": 0.2108
-                }
-              },
-              {
-                "id": "hiv81y5",
-                "sentiment": {
-                  "textblob_comments_rate": 0.85,
-                  "vader_comments_rate": 0.6361,
-                  "spacy_comments_rate": 0.85,
-                  "total_comments_rate": 0.7787000000000001
-                }
-              },
-              {
-                "id": "hivj3oi",
-                "sentiment": {
-                  "textblob_comments_rate": 0.29500000000000004,
-                  "vader_comments_rate": 0.9491,
-                  "spacy_comments_rate": 0.29500000000000004,
-                  "total_comments_rate": 0.5130333333333333
+                  "textblob_comments_rate": -0.4,
+                  "vader_comments_rate": -0.34,
+                  "spacy_comments_rate": -0.4,
+                  "total_comments_rate": -0.38000000000000006
                 }
               },
               {
@@ -4937,39 +4946,30 @@
                 }
               },
               {
-                "id": "hivbvk3",
+                "id": "hiv7s1i",
                 "sentiment": {
-                  "textblob_comments_rate": 0.2857142857142857,
-                  "vader_comments_rate": -0.296,
-                  "spacy_comments_rate": 0.2857142857142857,
-                  "total_comments_rate": 0.0918095238095238
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
-                "id": "hivcc2f",
+                "id": "hiv82no",
                 "sentiment": {
-                  "textblob_comments_rate": 0.03214285714285714,
-                  "vader_comments_rate": 0.875,
-                  "spacy_comments_rate": 0.03214285714285714,
-                  "total_comments_rate": 0.3130952380952381
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.3182,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.10606666666666666
                 }
               },
               {
-                "id": "hivawf4",
+                "id": "hiv8h6i",
                 "sentiment": {
-                  "textblob_comments_rate": -0.27291666666666664,
-                  "vader_comments_rate": 0.25,
-                  "spacy_comments_rate": -0.27291666666666664,
-                  "total_comments_rate": -0.0986111111111111
-                }
-              },
-              {
-                "id": "hivcu0u",
-                "sentiment": {
-                  "textblob_comments_rate": -0.4,
-                  "vader_comments_rate": -0.34,
-                  "spacy_comments_rate": -0.4,
-                  "total_comments_rate": -0.38000000000000006
+                  "textblob_comments_rate": -0.5,
+                  "vader_comments_rate": -0.8176,
+                  "spacy_comments_rate": -0.5,
+                  "total_comments_rate": -0.6058666666666667
                 }
               },
               {
@@ -4988,6 +4988,24 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hiv83jf",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hiv85mu",
+                "sentiment": {
+                  "textblob_comments_rate": 0.5,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.5,
+                  "total_comments_rate": 0.3333333333333333
                 }
               },
               {
@@ -5115,6 +5133,69 @@
                   "spacy_comments_rate": 0.625,
                   "total_comments_rate": 0.15743333333333334
                 }
+              },
+              {
+                "id": "hiwd3p0",
+                "sentiment": {
+                  "textblob_comments_rate": 0.44999999999999996,
+                  "vader_comments_rate": 0.4404,
+                  "spacy_comments_rate": 0.44999999999999996,
+                  "total_comments_rate": 0.4467999999999999
+                }
+              },
+              {
+                "id": "hiwdgus",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hiwfqvz",
+                "sentiment": {
+                  "textblob_comments_rate": 0.06250000000000003,
+                  "vader_comments_rate": -0.3287,
+                  "spacy_comments_rate": 0.06250000000000003,
+                  "total_comments_rate": -0.06789999999999999
+                }
+              },
+              {
+                "id": "hiwikly",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.3182,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.10606666666666666
+                }
+              },
+              {
+                "id": "hiwj7m0",
+                "sentiment": {
+                  "textblob_comments_rate": -0.4,
+                  "vader_comments_rate": -0.296,
+                  "spacy_comments_rate": -0.4,
+                  "total_comments_rate": -0.36533333333333334
+                }
+              },
+              {
+                "id": "hixep8w",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hixj7xf",
+                "sentiment": {
+                  "textblob_comments_rate": -0.26666666666666666,
+                  "vader_comments_rate": -0.9011,
+                  "spacy_comments_rate": -0.26666666666666666,
+                  "total_comments_rate": -0.4781444444444444
+                }
               }
             ],
             "sentiment": {
@@ -5122,10 +5203,10 @@
               "vader_post_rate": 0.6448,
               "spacy_post_rate": -0.07046957671957672,
               "total_post_rate": 0.16795361552028218,
-              "textblob_comments_rate": 0.07629915427709544,
-              "vader_comments_rate": 0.028792941176470584,
-              "spacy_comments_rate": 0.07629915427709544,
-              "total_comments_rate": 0.06046374991022052
+              "textblob_comments_rate": 0.06527073656583965,
+              "vader_comments_rate": -0.0009484536082474258,
+              "spacy_comments_rate": 0.06527073656583965,
+              "total_comments_rate": 0.043197673174477313
             }
           }
         ]
@@ -5136,7 +5217,7 @@
     "subreddit": "ethereum",
     "sentiment_historical_data": [
       {
-        "timestamp": "2023-02-26T20:13:31.049424",
+        "timestamp": "2023-03-10T08:15:43.564389",
         "top_posts": [
           {
             "id": "l6c3kx",
@@ -5170,15 +5251,6 @@
                 }
               },
               {
-                "id": "gkzpw9c",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
                 "id": "gkzmj4d",
                 "sentiment": {
                   "textblob_comments_rate": 1.0,
@@ -5188,21 +5260,12 @@
                 }
               },
               {
-                "id": "gkzmanq",
+                "id": "gkzpw9c",
                 "sentiment": {
-                  "textblob_comments_rate": 0.0625,
-                  "vader_comments_rate": 0.8502,
-                  "spacy_comments_rate": 0.0625,
-                  "total_comments_rate": 0.32506666666666667
-                }
-              },
-              {
-                "id": "gkzlq51",
-                "sentiment": {
-                  "textblob_comments_rate": 0.375,
-                  "vader_comments_rate": 0.7803,
-                  "spacy_comments_rate": 0.375,
-                  "total_comments_rate": 0.5101
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
@@ -5221,6 +5284,15 @@
                   "vader_comments_rate": -0.4019,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": -0.13396666666666665
+                }
+              },
+              {
+                "id": "gkzmanq",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0625,
+                  "vader_comments_rate": 0.8502,
+                  "spacy_comments_rate": 0.0625,
+                  "total_comments_rate": 0.32506666666666667
                 }
               },
               {
@@ -5248,6 +5320,15 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gkzlq51",
+                "sentiment": {
+                  "textblob_comments_rate": 0.375,
+                  "vader_comments_rate": 0.7803,
+                  "spacy_comments_rate": 0.375,
+                  "total_comments_rate": 0.5101
                 }
               },
               {
@@ -5440,15 +5521,6 @@
                 }
               },
               {
-                "id": "gkzosoo",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.7783,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.25943333333333335
-                }
-              },
-              {
                 "id": "gkzo5d9",
                 "sentiment": {
                   "textblob_comments_rate": 0.7,
@@ -5491,6 +5563,15 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gkzosoo",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.7783,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.25943333333333335
                 }
               },
               {
@@ -5998,6 +6079,339 @@
                 }
               },
               {
+                "id": "gl062as",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.6331,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.21103333333333332
+                }
+              },
+              {
+                "id": "gkzpbs0",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gkzpv52",
+                "sentiment": {
+                  "textblob_comments_rate": 0.475,
+                  "vader_comments_rate": 0.595,
+                  "spacy_comments_rate": 0.475,
+                  "total_comments_rate": 0.515
+                }
+              },
+              {
+                "id": "gkzu2gj",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gkzxzre",
+                "sentiment": {
+                  "textblob_comments_rate": 0.34375,
+                  "vader_comments_rate": 0.6958,
+                  "spacy_comments_rate": 0.34375,
+                  "total_comments_rate": 0.4611
+                }
+              },
+              {
+                "id": "gkzyq1o",
+                "sentiment": {
+                  "textblob_comments_rate": 0.375,
+                  "vader_comments_rate": 0.8625,
+                  "spacy_comments_rate": 0.375,
+                  "total_comments_rate": 0.5375
+                }
+              },
+              {
+                "id": "gl0342z",
+                "sentiment": {
+                  "textblob_comments_rate": 0.17500000000000002,
+                  "vader_comments_rate": 0.5574,
+                  "spacy_comments_rate": 0.17500000000000002,
+                  "total_comments_rate": 0.3024666666666667
+                }
+              },
+              {
+                "id": "gl03xpl",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl03zhd",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl04e7d",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl0884v",
+                "sentiment": {
+                  "textblob_comments_rate": 0.26666666666666666,
+                  "vader_comments_rate": 0.8453,
+                  "spacy_comments_rate": 0.26666666666666666,
+                  "total_comments_rate": 0.4595444444444445
+                }
+              },
+              {
+                "id": "gl0mq7q",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl0pcm3",
+                "sentiment": {
+                  "textblob_comments_rate": -0.4,
+                  "vader_comments_rate": -0.5423,
+                  "spacy_comments_rate": -0.4,
+                  "total_comments_rate": -0.44743333333333335
+                }
+              },
+              {
+                "id": "gl0vvg3",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl10ril",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl1lkby",
+                "sentiment": {
+                  "textblob_comments_rate": -0.2916666666666667,
+                  "vader_comments_rate": -0.5719,
+                  "spacy_comments_rate": -0.2916666666666667,
+                  "total_comments_rate": -0.3850777777777778
+                }
+              },
+              {
+                "id": "gl20fln",
+                "sentiment": {
+                  "textblob_comments_rate": -0.6999999999999998,
+                  "vader_comments_rate": -0.5423,
+                  "spacy_comments_rate": -0.6999999999999998,
+                  "total_comments_rate": -0.6474333333333332
+                }
+              },
+              {
+                "id": "gl2aaw5",
+                "sentiment": {
+                  "textblob_comments_rate": -0.5,
+                  "vader_comments_rate": -0.5859,
+                  "spacy_comments_rate": -0.5,
+                  "total_comments_rate": -0.5286333333333334
+                }
+              },
+              {
+                "id": "gl2v2u3",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.3818,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.12726666666666667
+                }
+              },
+              {
+                "id": "gl4jn0v",
+                "sentiment": {
+                  "textblob_comments_rate": 0.6,
+                  "vader_comments_rate": 0.4956,
+                  "spacy_comments_rate": 0.6,
+                  "total_comments_rate": 0.5651999999999999
+                }
+              },
+              {
+                "id": "gl02vk1",
+                "sentiment": {
+                  "textblob_comments_rate": -0.390625,
+                  "vader_comments_rate": 0.5903,
+                  "spacy_comments_rate": -0.390625,
+                  "total_comments_rate": -0.06364999999999998
+                }
+              },
+              {
+                "id": "gkzqm6h",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0037878787878787845,
+                  "vader_comments_rate": 0.4741,
+                  "spacy_comments_rate": 0.0037878787878787845,
+                  "total_comments_rate": 0.16055858585858587
+                }
+              },
+              {
+                "id": "gkzoyc4",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl0jm4z",
+                "sentiment": {
+                  "textblob_comments_rate": -0.028124999999999997,
+                  "vader_comments_rate": 0.7882,
+                  "spacy_comments_rate": -0.028124999999999997,
+                  "total_comments_rate": 0.24398333333333336
+                }
+              },
+              {
+                "id": "gl1kzgy",
+                "sentiment": {
+                  "textblob_comments_rate": 0.375,
+                  "vader_comments_rate": 0.1027,
+                  "spacy_comments_rate": 0.375,
+                  "total_comments_rate": 0.28423333333333334
+                }
+              },
+              {
+                "id": "gl44c6a",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.25,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.08333333333333333
+                }
+              },
+              {
+                "id": "gld783y",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "glzelqs",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.2732,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.09106666666666667
+                }
+              },
+              {
+                "id": "gm11qy9",
+                "sentiment": {
+                  "textblob_comments_rate": -0.21666666666666667,
+                  "vader_comments_rate": -0.4019,
+                  "spacy_comments_rate": -0.21666666666666667,
+                  "total_comments_rate": -0.2784111111111111
+                }
+              },
+              {
+                "id": "gm8sjmm",
+                "sentiment": {
+                  "textblob_comments_rate": 0.2,
+                  "vader_comments_rate": 0.4404,
+                  "spacy_comments_rate": 0.2,
+                  "total_comments_rate": 0.28013333333333335
+                }
+              },
+              {
+                "id": "gl0qiwp",
+                "sentiment": {
+                  "textblob_comments_rate": 0.6,
+                  "vader_comments_rate": -0.2023,
+                  "spacy_comments_rate": 0.6,
+                  "total_comments_rate": 0.3325666666666666
+                }
+              },
+              {
+                "id": "gl0dytt",
+                "sentiment": {
+                  "textblob_comments_rate": -0.2,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": -0.2,
+                  "total_comments_rate": -0.13333333333333333
+                }
+              },
+              {
+                "id": "gl0guc9",
+                "sentiment": {
+                  "textblob_comments_rate": -0.033333333333333326,
+                  "vader_comments_rate": 0.8806,
+                  "spacy_comments_rate": -0.033333333333333326,
+                  "total_comments_rate": 0.2713111111111111
+                }
+              },
+              {
+                "id": "gl0dz6f",
+                "sentiment": {
+                  "textblob_comments_rate": -0.2,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": -0.2,
+                  "total_comments_rate": -0.13333333333333333
+                }
+              },
+              {
+                "id": "gl2e72n",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gl06nzf",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0772,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.025733333333333334
+                }
+              },
+              {
+                "id": "gl04g85",
+                "sentiment": {
+                  "textblob_comments_rate": 0.06666666666666667,
+                  "vader_comments_rate": -0.1027,
+                  "spacy_comments_rate": 0.06666666666666667,
+                  "total_comments_rate": 0.01021111111111111
+                }
+              },
+              {
                 "id": "gkzso4j",
                 "sentiment": {
                   "textblob_comments_rate": 0.78125,
@@ -6076,15 +6490,6 @@
                   "vader_comments_rate": 0.5106,
                   "spacy_comments_rate": 0.4333333333333333,
                   "total_comments_rate": 0.4590888888888889
-                }
-              },
-              {
-                "id": "gl062as",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.6331,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.21103333333333332
                 }
               },
               {
@@ -6646,25 +7051,7 @@
                 }
               },
               {
-                "id": "gl3spul",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.3382,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.11273333333333334
-                }
-              },
-              {
                 "id": "gl3wwm5",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "gl3xqfe",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
@@ -6806,15 +7193,6 @@
                   "spacy_comments_rate": -0.3125,
                   "total_comments_rate": -0.043699999999999996
                 }
-              },
-              {
-                "id": "glq8svo",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.4215,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.14049999999999999
-                }
               }
             ],
             "sentiment": {
@@ -6822,10 +7200,10 @@
               "vader_post_rate": 0.9931,
               "spacy_post_rate": 0.2128694350916573,
               "total_post_rate": 0.47294629006110483,
-              "textblob_comments_rate": 0.24093809963433624,
-              "vader_comments_rate": 0.34356075268817193,
-              "spacy_comments_rate": 0.24093809963433624,
-              "total_comments_rate": 0.2751456506522815
+              "textblob_comments_rate": 0.2070088633673109,
+              "vader_comments_rate": 0.3093141552511416,
+              "spacy_comments_rate": 0.2070088633673109,
+              "total_comments_rate": 0.2411106273285877
             }
           },
           {
@@ -6839,15 +7217,6 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": -0.25,
                   "total_comments_rate": -0.16666666666666666
-                }
-              },
-              {
-                "id": "gx8567a",
-                "sentiment": {
-                  "textblob_comments_rate": -0.15625,
-                  "vader_comments_rate": -0.5499,
-                  "spacy_comments_rate": -0.15625,
-                  "total_comments_rate": -0.2874666666666667
                 }
               },
               {
@@ -6866,6 +7235,15 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.16666666666666666,
                   "total_comments_rate": 0.1111111111111111
+                }
+              },
+              {
+                "id": "gx8567a",
+                "sentiment": {
+                  "textblob_comments_rate": -0.15625,
+                  "vader_comments_rate": -0.5499,
+                  "spacy_comments_rate": -0.15625,
+                  "total_comments_rate": -0.2874666666666667
                 }
               },
               {
@@ -6896,6 +7274,15 @@
                 }
               },
               {
+                "id": "gx7w0ks",
+                "sentiment": {
+                  "textblob_comments_rate": 0.41818181818181815,
+                  "vader_comments_rate": -0.6908,
+                  "spacy_comments_rate": 0.41818181818181815,
+                  "total_comments_rate": 0.04852121212121211
+                }
+              },
+              {
                 "id": "gx7p7re",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -6914,12 +7301,12 @@
                 }
               },
               {
-                "id": "gx7w0ks",
+                "id": "gx7r4kk",
                 "sentiment": {
-                  "textblob_comments_rate": 0.41818181818181815,
-                  "vader_comments_rate": -0.6908,
-                  "spacy_comments_rate": 0.41818181818181815,
-                  "total_comments_rate": 0.04852121212121211
+                  "textblob_comments_rate": 0.05,
+                  "vader_comments_rate": -0.6769,
+                  "spacy_comments_rate": 0.05,
+                  "total_comments_rate": -0.19229999999999994
                 }
               },
               {
@@ -6941,12 +7328,12 @@
                 }
               },
               {
-                "id": "gx7r4kk",
+                "id": "gx7pfye",
                 "sentiment": {
-                  "textblob_comments_rate": 0.05,
-                  "vader_comments_rate": -0.6769,
-                  "spacy_comments_rate": 0.05,
-                  "total_comments_rate": -0.19229999999999994
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
@@ -6959,12 +7346,21 @@
                 }
               },
               {
-                "id": "gx7pfye",
+                "id": "gx7szq1",
                 "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
+                  "textblob_comments_rate": 0.15625,
+                  "vader_comments_rate": 0.8847,
+                  "spacy_comments_rate": 0.15625,
+                  "total_comments_rate": 0.3990666666666667
+                }
+              },
+              {
+                "id": "gx7xw3v",
+                "sentiment": {
+                  "textblob_comments_rate": -0.09166666666666667,
+                  "vader_comments_rate": -0.5106,
+                  "spacy_comments_rate": -0.09166666666666667,
+                  "total_comments_rate": -0.23131111111111113
                 }
               },
               {
@@ -7004,21 +7400,12 @@
                 }
               },
               {
-                "id": "gx7xw3v",
+                "id": "gx89xuw",
                 "sentiment": {
-                  "textblob_comments_rate": -0.09166666666666667,
-                  "vader_comments_rate": -0.5106,
-                  "spacy_comments_rate": -0.09166666666666667,
-                  "total_comments_rate": -0.23131111111111113
-                }
-              },
-              {
-                "id": "gx7szq1",
-                "sentiment": {
-                  "textblob_comments_rate": 0.15625,
-                  "vader_comments_rate": 0.8847,
-                  "spacy_comments_rate": 0.15625,
-                  "total_comments_rate": 0.3990666666666667
+                  "textblob_comments_rate": 0.00033295026851728197,
+                  "vader_comments_rate": -0.9947,
+                  "spacy_comments_rate": 0.00033295026851728197,
+                  "total_comments_rate": -0.33134469982098846
                 }
               },
               {
@@ -7028,15 +7415,6 @@
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "gx89xuw",
-                "sentiment": {
-                  "textblob_comments_rate": 0.00033295026851728197,
-                  "vader_comments_rate": -0.9947,
-                  "spacy_comments_rate": 0.00033295026851728197,
-                  "total_comments_rate": -0.33134469982098846
                 }
               },
               {
@@ -7283,15 +7661,6 @@
                 }
               },
               {
-                "id": "gx8cq5c",
-                "sentiment": {
-                  "textblob_comments_rate": -0.026304713804713813,
-                  "vader_comments_rate": -0.1154,
-                  "spacy_comments_rate": -0.026304713804713813,
-                  "total_comments_rate": -0.05600314253647587
-                }
-              },
-              {
                 "id": "gx85fjy",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -7310,12 +7679,30 @@
                 }
               },
               {
+                "id": "gx8cq5c",
+                "sentiment": {
+                  "textblob_comments_rate": -0.026304713804713813,
+                  "vader_comments_rate": -0.1154,
+                  "spacy_comments_rate": -0.026304713804713813,
+                  "total_comments_rate": -0.05600314253647587
+                }
+              },
+              {
                 "id": "gx879zk",
                 "sentiment": {
                   "textblob_comments_rate": -0.05,
                   "vader_comments_rate": 0.296,
                   "spacy_comments_rate": -0.05,
                   "total_comments_rate": 0.06533333333333334
+                }
+              },
+              {
+                "id": "gx97lt5",
+                "sentiment": {
+                  "textblob_comments_rate": -0.08916666666666666,
+                  "vader_comments_rate": -0.7964,
+                  "spacy_comments_rate": -0.08916666666666666,
+                  "total_comments_rate": -0.3249111111111111
                 }
               },
               {
@@ -7361,24 +7748,6 @@
                   "vader_comments_rate": 0.2755,
                   "spacy_comments_rate": -0.175,
                   "total_comments_rate": -0.02483333333333332
-                }
-              },
-              {
-                "id": "gx7yeur",
-                "sentiment": {
-                  "textblob_comments_rate": 0.13833333333333336,
-                  "vader_comments_rate": 0.8948,
-                  "spacy_comments_rate": 0.13833333333333336,
-                  "total_comments_rate": 0.39048888888888894
-                }
-              },
-              {
-                "id": "gx7yqb8",
-                "sentiment": {
-                  "textblob_comments_rate": -0.4,
-                  "vader_comments_rate": -0.8555,
-                  "spacy_comments_rate": -0.4,
-                  "total_comments_rate": -0.5518333333333333
                 }
               },
               {
@@ -7508,6 +7877,24 @@
                 }
               },
               {
+                "id": "gx7yeur",
+                "sentiment": {
+                  "textblob_comments_rate": 0.13833333333333336,
+                  "vader_comments_rate": 0.8948,
+                  "spacy_comments_rate": 0.13833333333333336,
+                  "total_comments_rate": 0.39048888888888894
+                }
+              },
+              {
+                "id": "gx7yqb8",
+                "sentiment": {
+                  "textblob_comments_rate": -0.4,
+                  "vader_comments_rate": -0.8555,
+                  "spacy_comments_rate": -0.4,
+                  "total_comments_rate": -0.5518333333333333
+                }
+              },
+              {
                 "id": "gx8j1zp",
                 "sentiment": {
                   "textblob_comments_rate": -0.19272727272727272,
@@ -7517,12 +7904,12 @@
                 }
               },
               {
-                "id": "gx7m1a4",
+                "id": "gx8cg44",
                 "sentiment": {
-                  "textblob_comments_rate": 0.5,
-                  "vader_comments_rate": 0.296,
-                  "spacy_comments_rate": 0.5,
-                  "total_comments_rate": 0.432
+                  "textblob_comments_rate": 0.0625,
+                  "vader_comments_rate": 0.3818,
+                  "spacy_comments_rate": 0.0625,
+                  "total_comments_rate": 0.1689333333333333
                 }
               },
               {
@@ -7535,30 +7922,12 @@
                 }
               },
               {
-                "id": "gx7w69h",
+                "id": "gx7m1a4",
                 "sentiment": {
-                  "textblob_comments_rate": 0.2,
-                  "vader_comments_rate": -0.2574,
-                  "spacy_comments_rate": 0.2,
-                  "total_comments_rate": 0.04753333333333334
-                }
-              },
-              {
-                "id": "gx7ydqb",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "gx8cg44",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0625,
-                  "vader_comments_rate": 0.3818,
-                  "spacy_comments_rate": 0.0625,
-                  "total_comments_rate": 0.1689333333333333
+                  "textblob_comments_rate": 0.5,
+                  "vader_comments_rate": 0.296,
+                  "spacy_comments_rate": 0.5,
+                  "total_comments_rate": 0.432
                 }
               },
               {
@@ -7580,16 +7949,16 @@
                 }
               },
               {
-                "id": "gx7xz3i",
+                "id": "gx7w69h",
                 "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.3612,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.12040000000000001
+                  "textblob_comments_rate": 0.2,
+                  "vader_comments_rate": -0.2574,
+                  "spacy_comments_rate": 0.2,
+                  "total_comments_rate": 0.04753333333333334
                 }
               },
               {
-                "id": "gx84aaz",
+                "id": "gx7ydqb",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
@@ -7598,259 +7967,34 @@
                 }
               },
               {
-                "id": "gx88a5f",
+                "id": "gx81has",
                 "sentiment": {
-                  "textblob_comments_rate": 0.25,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.25,
-                  "total_comments_rate": 0.16666666666666666
+                  "textblob_comments_rate": 0.0625,
+                  "vader_comments_rate": -0.1695,
+                  "spacy_comments_rate": 0.0625,
+                  "total_comments_rate": -0.014833333333333337
                 }
               },
               {
-                "id": "gx8gzmc",
+                "id": "gx8lmc8",
                 "sentiment": {
-                  "textblob_comments_rate": 0.13636363636363635,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.13636363636363635,
-                  "total_comments_rate": 0.0909090909090909
+                  "textblob_comments_rate": 0.13,
+                  "vader_comments_rate": 0.5612,
+                  "spacy_comments_rate": 0.13,
+                  "total_comments_rate": 0.27373333333333333
                 }
               },
               {
-                "id": "gx8j7z0",
+                "id": "gx90f5x",
                 "sentiment": {
-                  "textblob_comments_rate": 0.16666666666666666,
-                  "vader_comments_rate": 0.3612,
-                  "spacy_comments_rate": 0.16666666666666666,
-                  "total_comments_rate": 0.2315111111111111
+                  "textblob_comments_rate": 0.21327777777777776,
+                  "vader_comments_rate": 0.9832,
+                  "spacy_comments_rate": 0.21327777777777776,
+                  "total_comments_rate": 0.46991851851851846
                 }
               },
               {
-                "id": "gx8k1zi",
-                "sentiment": {
-                  "textblob_comments_rate": 0.1,
-                  "vader_comments_rate": 0.7184,
-                  "spacy_comments_rate": 0.1,
-                  "total_comments_rate": 0.3061333333333333
-                }
-              },
-              {
-                "id": "gx8lrpk",
-                "sentiment": {
-                  "textblob_comments_rate": 0.5333333333333333,
-                  "vader_comments_rate": 0.5927,
-                  "spacy_comments_rate": 0.5333333333333333,
-                  "total_comments_rate": 0.5531222222222222
-                }
-              },
-              {
-                "id": "gx8raeb",
-                "sentiment": {
-                  "textblob_comments_rate": 0.16666666666666666,
-                  "vader_comments_rate": 0.3213,
-                  "spacy_comments_rate": 0.16666666666666666,
-                  "total_comments_rate": 0.2182111111111111
-                }
-              },
-              {
-                "id": "gx8sl4u",
-                "sentiment": {
-                  "textblob_comments_rate": -0.026945970695970704,
-                  "vader_comments_rate": -0.4738,
-                  "spacy_comments_rate": -0.026945970695970704,
-                  "total_comments_rate": -0.1758973137973138
-                }
-              },
-              {
-                "id": "gx8tmfo",
-                "sentiment": {
-                  "textblob_comments_rate": 0.10000000000000002,
-                  "vader_comments_rate": 0.5267,
-                  "spacy_comments_rate": 0.10000000000000002,
-                  "total_comments_rate": 0.2422333333333333
-                }
-              },
-              {
-                "id": "gx8tzly",
-                "sentiment": {
-                  "textblob_comments_rate": 0.35,
-                  "vader_comments_rate": -0.4201,
-                  "spacy_comments_rate": 0.35,
-                  "total_comments_rate": 0.0933
-                }
-              },
-              {
-                "id": "gx8u3oz",
-                "sentiment": {
-                  "textblob_comments_rate": -0.4749999999999999,
-                  "vader_comments_rate": 0.0258,
-                  "spacy_comments_rate": -0.4749999999999999,
-                  "total_comments_rate": -0.30806666666666666
-                }
-              },
-              {
-                "id": "gx8u9oq",
-                "sentiment": {
-                  "textblob_comments_rate": 0.16666666666666666,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.16666666666666666,
-                  "total_comments_rate": 0.1111111111111111
-                }
-              },
-              {
-                "id": "gx8v8jy",
-                "sentiment": {
-                  "textblob_comments_rate": -0.125,
-                  "vader_comments_rate": 0.4144,
-                  "spacy_comments_rate": -0.125,
-                  "total_comments_rate": 0.054799999999999995
-                }
-              },
-              {
-                "id": "gx8wd4a",
-                "sentiment": {
-                  "textblob_comments_rate": -0.3,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": -0.3,
-                  "total_comments_rate": -0.19999999999999998
-                }
-              },
-              {
-                "id": "gx8wjz5",
-                "sentiment": {
-                  "textblob_comments_rate": -0.010509506833036253,
-                  "vader_comments_rate": 0.905,
-                  "spacy_comments_rate": -0.010509506833036253,
-                  "total_comments_rate": 0.2946603287779758
-                }
-              },
-              {
-                "id": "gx8x2dj",
-                "sentiment": {
-                  "textblob_comments_rate": -0.2916666666666667,
-                  "vader_comments_rate": -0.0779,
-                  "spacy_comments_rate": -0.2916666666666667,
-                  "total_comments_rate": -0.2204111111111111
-                }
-              },
-              {
-                "id": "gx8xiv1",
-                "sentiment": {
-                  "textblob_comments_rate": 0.012500000000000004,
-                  "vader_comments_rate": 0.6908,
-                  "spacy_comments_rate": 0.012500000000000004,
-                  "total_comments_rate": 0.23859999999999995
-                }
-              },
-              {
-                "id": "gx8xpjf",
-                "sentiment": {
-                  "textblob_comments_rate": -0.2,
-                  "vader_comments_rate": 0.5927,
-                  "spacy_comments_rate": -0.2,
-                  "total_comments_rate": 0.06423333333333332
-                }
-              },
-              {
-                "id": "gx8xrgc",
-                "sentiment": {
-                  "textblob_comments_rate": 0.20357142857142857,
-                  "vader_comments_rate": -0.4915,
-                  "spacy_comments_rate": 0.20357142857142857,
-                  "total_comments_rate": -0.028119047619047616
-                }
-              },
-              {
-                "id": "gx901ak",
-                "sentiment": {
-                  "textblob_comments_rate": 0.05833333333333333,
-                  "vader_comments_rate": -0.5499,
-                  "spacy_comments_rate": 0.05833333333333333,
-                  "total_comments_rate": -0.14441111111111113
-                }
-              },
-              {
-                "id": "gx91477",
-                "sentiment": {
-                  "textblob_comments_rate": -0.13333333333333333,
-                  "vader_comments_rate": -0.4215,
-                  "spacy_comments_rate": -0.13333333333333333,
-                  "total_comments_rate": -0.22938888888888886
-                }
-              },
-              {
-                "id": "gx91ixy",
-                "sentiment": {
-                  "textblob_comments_rate": 0.22333333333333333,
-                  "vader_comments_rate": 0.6428,
-                  "spacy_comments_rate": 0.22333333333333333,
-                  "total_comments_rate": 0.3631555555555556
-                }
-              },
-              {
-                "id": "gx91k3f",
-                "sentiment": {
-                  "textblob_comments_rate": 0.31607142857142856,
-                  "vader_comments_rate": 0.8012,
-                  "spacy_comments_rate": 0.31607142857142856,
-                  "total_comments_rate": 0.4777809523809524
-                }
-              },
-              {
-                "id": "gx91mtl",
-                "sentiment": {
-                  "textblob_comments_rate": 0.3,
-                  "vader_comments_rate": 0.5106,
-                  "spacy_comments_rate": 0.3,
-                  "total_comments_rate": 0.37020000000000003
-                }
-              },
-              {
-                "id": "gx940u6",
-                "sentiment": {
-                  "textblob_comments_rate": 0.45,
-                  "vader_comments_rate": -0.0018,
-                  "spacy_comments_rate": 0.45,
-                  "total_comments_rate": 0.2994
-                }
-              },
-              {
-                "id": "gx94f5y",
-                "sentiment": {
-                  "textblob_comments_rate": 0.5,
-                  "vader_comments_rate": 0.4404,
-                  "spacy_comments_rate": 0.5,
-                  "total_comments_rate": 0.4801333333333333
-                }
-              },
-              {
-                "id": "gx95dxq",
-                "sentiment": {
-                  "textblob_comments_rate": 0.18184523809523806,
-                  "vader_comments_rate": 0.8924,
-                  "spacy_comments_rate": 0.18184523809523806,
-                  "total_comments_rate": 0.41869682539682535
-                }
-              },
-              {
-                "id": "gx96tgg",
-                "sentiment": {
-                  "textblob_comments_rate": -0.05,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": -0.05,
-                  "total_comments_rate": -0.03333333333333333
-                }
-              },
-              {
-                "id": "gx97dg6",
-                "sentiment": {
-                  "textblob_comments_rate": 0.35,
-                  "vader_comments_rate": 0.7351,
-                  "spacy_comments_rate": 0.35,
-                  "total_comments_rate": 0.4783666666666666
-                }
-              },
-              {
-                "id": "gx97dwi",
+                "id": "gx90mpc",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
@@ -7859,106 +8003,43 @@
                 }
               },
               {
-                "id": "gx97lt5",
-                "sentiment": {
-                  "textblob_comments_rate": -0.08916666666666666,
-                  "vader_comments_rate": -0.7964,
-                  "spacy_comments_rate": -0.08916666666666666,
-                  "total_comments_rate": -0.3249111111111111
-                }
-              },
-              {
-                "id": "gx98eac",
-                "sentiment": {
-                  "textblob_comments_rate": 0.014747474747474742,
-                  "vader_comments_rate": 0.9656,
-                  "spacy_comments_rate": 0.014747474747474742,
-                  "total_comments_rate": 0.3316983164983165
-                }
-              },
-              {
-                "id": "gx9a8rv",
-                "sentiment": {
-                  "textblob_comments_rate": 0.4,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.4,
-                  "total_comments_rate": 0.26666666666666666
-                }
-              },
-              {
-                "id": "gx9bec9",
-                "sentiment": {
-                  "textblob_comments_rate": 0.19047619047619047,
-                  "vader_comments_rate": -0.7843,
-                  "spacy_comments_rate": 0.19047619047619047,
-                  "total_comments_rate": -0.13444920634920635
-                }
-              },
-              {
-                "id": "gx9dpp7",
-                "sentiment": {
-                  "textblob_comments_rate": 0.4666666666666666,
-                  "vader_comments_rate": 0.4005,
-                  "spacy_comments_rate": 0.4666666666666666,
-                  "total_comments_rate": 0.44461111111111107
-                }
-              },
-              {
-                "id": "gx9eh83",
-                "sentiment": {
-                  "textblob_comments_rate": 0.5,
-                  "vader_comments_rate": 0.4215,
-                  "spacy_comments_rate": 0.5,
-                  "total_comments_rate": 0.47383333333333333
-                }
-              },
-              {
-                "id": "gx9fgw5",
+                "id": "gx91wye",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": -0.6124,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": -0.20413333333333336
-                }
-              },
-              {
-                "id": "gx9gldm",
-                "sentiment": {
-                  "textblob_comments_rate": -0.125,
-                  "vader_comments_rate": -0.802,
-                  "spacy_comments_rate": -0.125,
-                  "total_comments_rate": -0.3506666666666667
-                }
-              },
-              {
-                "id": "gx9ha6u",
-                "sentiment": {
-                  "textblob_comments_rate": 0.2,
                   "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.2,
-                  "total_comments_rate": 0.13333333333333333
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
-                "id": "gx9hvcy",
-                "sentiment": {
-                  "textblob_comments_rate": 0.2,
-                  "vader_comments_rate": 0.6369,
-                  "spacy_comments_rate": 0.2,
-                  "total_comments_rate": 0.3456333333333333
-                }
-              },
-              {
-                "id": "gx9ksqu",
+                "id": "gx9snvf",
                 "sentiment": {
                   "textblob_comments_rate": 0.6,
-                  "vader_comments_rate": 0.0,
+                  "vader_comments_rate": 0.4215,
                   "spacy_comments_rate": 0.6,
-                  "total_comments_rate": 0.39999999999999997
+                  "total_comments_rate": 0.5405000000000001
                 }
               },
               {
-                "id": "gx9lgn9",
+                "id": "gxa6cqw",
+                "sentiment": {
+                  "textblob_comments_rate": 0.6,
+                  "vader_comments_rate": 0.5574,
+                  "spacy_comments_rate": 0.6,
+                  "total_comments_rate": 0.5858
+                }
+              },
+              {
+                "id": "gxbiyfl",
+                "sentiment": {
+                  "textblob_comments_rate": -0.6598307291666667,
+                  "vader_comments_rate": -0.6592,
+                  "spacy_comments_rate": -0.6598307291666667,
+                  "total_comments_rate": -0.6596204861111111
+                }
+              },
+              {
+                "id": "gzetrpl",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
@@ -7967,12 +8048,129 @@
                 }
               },
               {
-                "id": "gx9mehm",
+                "id": "gx8hvt5",
+                "sentiment": {
+                  "textblob_comments_rate": 0.5,
+                  "vader_comments_rate": 0.296,
+                  "spacy_comments_rate": 0.5,
+                  "total_comments_rate": 0.432
+                }
+              },
+              {
+                "id": "gx83k1e",
+                "sentiment": {
+                  "textblob_comments_rate": 0.20023809523809524,
+                  "vader_comments_rate": 0.4005,
+                  "spacy_comments_rate": 0.20023809523809524,
+                  "total_comments_rate": 0.2669920634920635
+                }
+              },
+              {
+                "id": "gx7xr6n",
+                "sentiment": {
+                  "textblob_comments_rate": 0.2,
+                  "vader_comments_rate": 0.1901,
+                  "spacy_comments_rate": 0.2,
+                  "total_comments_rate": 0.1967
+                }
+              },
+              {
+                "id": "gx80b37",
+                "sentiment": {
+                  "textblob_comments_rate": 0.5,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.5,
+                  "total_comments_rate": 0.3333333333333333
+                }
+              },
+              {
+                "id": "gx84x5v",
+                "sentiment": {
+                  "textblob_comments_rate": 0.2090909090909091,
+                  "vader_comments_rate": 0.5563,
+                  "spacy_comments_rate": 0.2090909090909091,
+                  "total_comments_rate": 0.32482727272727274
+                }
+              },
+              {
+                "id": "gx8fw9k",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.5106,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.17020000000000002
+                }
+              },
+              {
+                "id": "gx8o5k3",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "gx8t0co",
+                "sentiment": {
+                  "textblob_comments_rate": 0.17714285714285719,
+                  "vader_comments_rate": -0.8924,
+                  "spacy_comments_rate": 0.17714285714285719,
+                  "total_comments_rate": -0.17937142857142854
+                }
+              },
+              {
+                "id": "gx84wpx",
+                "sentiment": {
+                  "textblob_comments_rate": -0.31071428571428567,
+                  "vader_comments_rate": -0.7579,
+                  "spacy_comments_rate": -0.31071428571428567,
+                  "total_comments_rate": -0.4597761904761905
+                }
+              },
+              {
+                "id": "gx7wky9",
+                "sentiment": {
+                  "textblob_comments_rate": -0.016666666666666677,
+                  "vader_comments_rate": -0.2732,
+                  "spacy_comments_rate": -0.016666666666666677,
+                  "total_comments_rate": -0.10217777777777777
+                }
+              },
+              {
+                "id": "gx82o47",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.1531,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.05103333333333334
+                }
+              },
+              {
+                "id": "gx7qp4r",
+                "sentiment": {
+                  "textblob_comments_rate": 0.09523809523809527,
+                  "vader_comments_rate": 0.2732,
+                  "spacy_comments_rate": 0.09523809523809527,
+                  "total_comments_rate": 0.1545587301587302
+                }
+              },
+              {
+                "id": "gx7xnrc",
+                "sentiment": {
+                  "textblob_comments_rate": 0.07222222222222223,
+                  "vader_comments_rate": 0.3182,
+                  "spacy_comments_rate": 0.07222222222222223,
+                  "total_comments_rate": 0.15421481481481483
+                }
+              },
+              {
+                "id": "gxcb25o",
+                "sentiment": {
+                  "textblob_comments_rate": -0.5,
+                  "vader_comments_rate": -0.4767,
+                  "spacy_comments_rate": -0.5,
+                  "total_comments_rate": -0.49223333333333336
                 }
               }
             ],
@@ -7981,10 +8179,10 @@
               "vader_post_rate": 0.8119,
               "spacy_post_rate": 0.1033107044470681,
               "total_post_rate": 0.33950713629804535,
-              "textblob_comments_rate": 0.07891261289398373,
-              "vader_comments_rate": 0.06633464566929133,
-              "spacy_comments_rate": 0.07891261289398373,
-              "total_comments_rate": 0.0747199571524196
+              "textblob_comments_rate": 0.06256648155827302,
+              "vader_comments_rate": 0.019380373831775693,
+              "spacy_comments_rate": 0.06256648155827302,
+              "total_comments_rate": 0.048171112316107274
             }
           }
         ]
@@ -7995,7 +8193,7 @@
     "subreddit": "solana",
     "sentiment_historical_data": [
       {
-        "timestamp": "2023-02-26T20:14:09.038981",
+        "timestamp": "2023-03-10T08:15:51.604409",
         "top_posts": [
           {
             "id": "qjqdoi",
@@ -8020,15 +8218,6 @@
                 }
               },
               {
-                "id": "hitiw6d",
-                "sentiment": {
-                  "textblob_comments_rate": 1.0,
-                  "vader_comments_rate": 0.6369,
-                  "spacy_comments_rate": 1.0,
-                  "total_comments_rate": 0.8789666666666666
-                }
-              },
-              {
                 "id": "hirpz7r",
                 "sentiment": {
                   "textblob_comments_rate": -0.0002705627705627696,
@@ -8038,12 +8227,57 @@
                 }
               },
               {
+                "id": "hitiw6d",
+                "sentiment": {
+                  "textblob_comments_rate": 1.0,
+                  "vader_comments_rate": 0.6369,
+                  "spacy_comments_rate": 1.0,
+                  "total_comments_rate": 0.8789666666666666
+                }
+              },
+              {
                 "id": "hirprqv",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hirmpng",
+                "sentiment": {
+                  "textblob_comments_rate": 0.06848214285714287,
+                  "vader_comments_rate": 0.9062,
+                  "spacy_comments_rate": 0.06848214285714287,
+                  "total_comments_rate": 0.34772142857142857
+                }
+              },
+              {
+                "id": "his47bj",
+                "sentiment": {
+                  "textblob_comments_rate": 0.4303571428571429,
+                  "vader_comments_rate": 0.9717,
+                  "spacy_comments_rate": 0.4303571428571429,
+                  "total_comments_rate": 0.610804761904762
+                }
+              },
+              {
+                "id": "hirqlws",
+                "sentiment": {
+                  "textblob_comments_rate": 0.25,
+                  "vader_comments_rate": 0.2023,
+                  "spacy_comments_rate": 0.25,
+                  "total_comments_rate": 0.2341
+                }
+              },
+              {
+                "id": "hirsgsw",
+                "sentiment": {
+                  "textblob_comments_rate": 0.31666666666666665,
+                  "vader_comments_rate": 0.5777,
+                  "spacy_comments_rate": 0.31666666666666665,
+                  "total_comments_rate": 0.4036777777777778
                 }
               },
               {
@@ -8065,6 +8299,24 @@
                 }
               },
               {
+                "id": "hisavww",
+                "sentiment": {
+                  "textblob_comments_rate": 0.28267857142857145,
+                  "vader_comments_rate": 0.9833,
+                  "spacy_comments_rate": 0.28267857142857145,
+                  "total_comments_rate": 0.5162190476190477
+                }
+              },
+              {
+                "id": "hirrwje",
+                "sentiment": {
+                  "textblob_comments_rate": 0.1277777777777778,
+                  "vader_comments_rate": 0.3818,
+                  "spacy_comments_rate": 0.1277777777777778,
+                  "total_comments_rate": 0.21245185185185186
+                }
+              },
+              {
                 "id": "hiz05i6",
                 "sentiment": {
                   "textblob_comments_rate": 0.54,
@@ -8083,24 +8335,6 @@
                 }
               },
               {
-                "id": "his47bj",
-                "sentiment": {
-                  "textblob_comments_rate": 0.4303571428571429,
-                  "vader_comments_rate": 0.9717,
-                  "spacy_comments_rate": 0.4303571428571429,
-                  "total_comments_rate": 0.610804761904762
-                }
-              },
-              {
-                "id": "hirmpng",
-                "sentiment": {
-                  "textblob_comments_rate": 0.06848214285714287,
-                  "vader_comments_rate": 0.9062,
-                  "spacy_comments_rate": 0.06848214285714287,
-                  "total_comments_rate": 0.34772142857142857
-                }
-              },
-              {
                 "id": "hitnzmx",
                 "sentiment": {
                   "textblob_comments_rate": 0.153125,
@@ -8110,21 +8344,12 @@
                 }
               },
               {
-                "id": "hirsgsw",
+                "id": "his69mb",
                 "sentiment": {
-                  "textblob_comments_rate": 0.31666666666666665,
-                  "vader_comments_rate": 0.5777,
-                  "spacy_comments_rate": 0.31666666666666665,
-                  "total_comments_rate": 0.4036777777777778
-                }
-              },
-              {
-                "id": "hirqlws",
-                "sentiment": {
-                  "textblob_comments_rate": 0.25,
-                  "vader_comments_rate": 0.2023,
-                  "spacy_comments_rate": 0.25,
-                  "total_comments_rate": 0.2341
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
@@ -8209,21 +8434,12 @@
                 }
               },
               {
-                "id": "hirrwje",
+                "id": "his67ji",
                 "sentiment": {
-                  "textblob_comments_rate": 0.1277777777777778,
-                  "vader_comments_rate": 0.3818,
-                  "spacy_comments_rate": 0.1277777777777778,
-                  "total_comments_rate": 0.21245185185185186
-                }
-              },
-              {
-                "id": "hisavww",
-                "sentiment": {
-                  "textblob_comments_rate": 0.28267857142857145,
-                  "vader_comments_rate": 0.9833,
-                  "spacy_comments_rate": 0.28267857142857145,
-                  "total_comments_rate": 0.5162190476190477
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
@@ -8398,33 +8614,6 @@
                 }
               },
               {
-                "id": "his69mb",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "his67ji",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
-                "id": "hiugmhg",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
-              },
-              {
                 "id": "hisbxiz",
                 "sentiment": {
                   "textblob_comments_rate": 0.1896825396825397,
@@ -8440,6 +8629,15 @@
                   "vader_comments_rate": -0.5423,
                   "spacy_comments_rate": 0.072,
                   "total_comments_rate": -0.13276666666666667
+                }
+              },
+              {
+                "id": "hiugmhg",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
                 }
               },
               {
@@ -8794,6 +8992,15 @@
                 }
               },
               {
+                "id": "hisvpxi",
+                "sentiment": {
+                  "textblob_comments_rate": -0.6666666666666666,
+                  "vader_comments_rate": -0.4019,
+                  "spacy_comments_rate": -0.6666666666666666,
+                  "total_comments_rate": -0.5784111111111111
+                }
+              },
+              {
                 "id": "hisim2c",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -8803,12 +9010,75 @@
                 }
               },
               {
-                "id": "hisvpxi",
+                "id": "hirs0f0",
                 "sentiment": {
-                  "textblob_comments_rate": -0.6666666666666666,
-                  "vader_comments_rate": -0.4019,
-                  "spacy_comments_rate": -0.6666666666666666,
-                  "total_comments_rate": -0.5784111111111111
+                  "textblob_comments_rate": -0.16666666666666666,
+                  "vader_comments_rate": -0.4854,
+                  "spacy_comments_rate": -0.16666666666666666,
+                  "total_comments_rate": -0.2729111111111111
+                }
+              },
+              {
+                "id": "hiu05af",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hiv6vth",
+                "sentiment": {
+                  "textblob_comments_rate": 0.25,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.25,
+                  "total_comments_rate": 0.16666666666666666
+                }
+              },
+              {
+                "id": "hkgqwlw",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": -0.7568,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": -0.2522666666666667
+                }
+              },
+              {
+                "id": "hlj04b0",
+                "sentiment": {
+                  "textblob_comments_rate": 0.26071428571428573,
+                  "vader_comments_rate": 0.9074,
+                  "spacy_comments_rate": 0.26071428571428573,
+                  "total_comments_rate": 0.47627619047619046
+                }
+              },
+              {
+                "id": "hmbaqoh",
+                "sentiment": {
+                  "textblob_comments_rate": 0.5,
+                  "vader_comments_rate": 0.8353,
+                  "spacy_comments_rate": 0.5,
+                  "total_comments_rate": 0.6117666666666667
+                }
+              },
+              {
+                "id": "hmcy5hx",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hitwftc",
+                "sentiment": {
+                  "textblob_comments_rate": 0.07878787878787878,
+                  "vader_comments_rate": -0.34,
+                  "spacy_comments_rate": 0.07878787878787878,
+                  "total_comments_rate": -0.06080808080808081
                 }
               },
               {
@@ -8952,10 +9222,10 @@
               "vader_post_rate": 0.9948,
               "spacy_post_rate": 0.19537037037037036,
               "total_post_rate": 0.46184691358024693,
-              "textblob_comments_rate": 0.19536799241582153,
-              "vader_comments_rate": 0.33412285714285705,
-              "spacy_comments_rate": 0.19536799241582153,
-              "total_comments_rate": 0.2416196139915
+              "textblob_comments_rate": 0.18970331594244916,
+              "vader_comments_rate": 0.31188849557522125,
+              "spacy_comments_rate": 0.18970331594244916,
+              "total_comments_rate": 0.23043170915337322
             }
           },
           {
@@ -8964,6 +9234,15 @@
             "top_comments": [
               {
                 "id": "hiuwk2i",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
+                "id": "hj76e74",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
                   "vader_comments_rate": 0.0,
@@ -9006,15 +9285,6 @@
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": 0.0
                 }
-              },
-              {
-                "id": "hj76e74",
-                "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
-                }
               }
             ],
             "sentiment": {
@@ -9036,7 +9306,7 @@
     "subreddit": "CryptoMarkets",
     "sentiment_historical_data": [
       {
-        "timestamp": "2023-02-26T20:14:40.126628",
+        "timestamp": "2023-03-10T08:15:56.103730",
         "top_posts": [
           {
             "id": "o5mtbq",
@@ -9115,6 +9385,24 @@
                 }
               },
               {
+                "id": "h2npebw",
+                "sentiment": {
+                  "textblob_comments_rate": 0.8,
+                  "vader_comments_rate": -0.0772,
+                  "spacy_comments_rate": 0.8,
+                  "total_comments_rate": 0.5076
+                }
+              },
+              {
+                "id": "h2nij05",
+                "sentiment": {
+                  "textblob_comments_rate": 0.0,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": 0.0,
+                  "total_comments_rate": 0.0
+                }
+              },
+              {
                 "id": "h2nj9bv",
                 "sentiment": {
                   "textblob_comments_rate": 0.7,
@@ -9133,21 +9421,21 @@
                 }
               },
               {
-                "id": "h2npebw",
+                "id": "h2ndm8p",
                 "sentiment": {
-                  "textblob_comments_rate": 0.8,
-                  "vader_comments_rate": -0.0772,
-                  "spacy_comments_rate": 0.8,
-                  "total_comments_rate": 0.5076
+                  "textblob_comments_rate": 0.1400462962962963,
+                  "vader_comments_rate": 0.2013,
+                  "spacy_comments_rate": 0.1400462962962963,
+                  "total_comments_rate": 0.1604641975308642
                 }
               },
               {
-                "id": "h2nij05",
+                "id": "h2nckde",
                 "sentiment": {
-                  "textblob_comments_rate": 0.0,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": 0.0,
-                  "total_comments_rate": 0.0
+                  "textblob_comments_rate": 0.8,
+                  "vader_comments_rate": 0.4215,
+                  "spacy_comments_rate": 0.8,
+                  "total_comments_rate": 0.6738333333333334
                 }
               },
               {
@@ -9178,21 +9466,21 @@
                 }
               },
               {
-                "id": "h2ndm8p",
+                "id": "h2nhfba",
                 "sentiment": {
-                  "textblob_comments_rate": 0.1400462962962963,
-                  "vader_comments_rate": 0.2013,
-                  "spacy_comments_rate": 0.1400462962962963,
-                  "total_comments_rate": 0.1604641975308642
+                  "textblob_comments_rate": -0.049999999999999996,
+                  "vader_comments_rate": 0.0,
+                  "spacy_comments_rate": -0.049999999999999996,
+                  "total_comments_rate": -0.03333333333333333
                 }
               },
               {
-                "id": "h2nckde",
+                "id": "h2nfq5o",
                 "sentiment": {
-                  "textblob_comments_rate": 0.8,
-                  "vader_comments_rate": 0.4215,
-                  "spacy_comments_rate": 0.8,
-                  "total_comments_rate": 0.6738333333333334
+                  "textblob_comments_rate": 0.20727272727272728,
+                  "vader_comments_rate": 0.9231,
+                  "spacy_comments_rate": 0.20727272727272728,
+                  "total_comments_rate": 0.4458818181818182
                 }
               },
               {
@@ -9211,33 +9499,6 @@
                   "vader_comments_rate": -0.2846,
                   "spacy_comments_rate": 0.04999999999999999,
                   "total_comments_rate": -0.06153333333333335
-                }
-              },
-              {
-                "id": "h2nhfba",
-                "sentiment": {
-                  "textblob_comments_rate": -0.049999999999999996,
-                  "vader_comments_rate": 0.0,
-                  "spacy_comments_rate": -0.049999999999999996,
-                  "total_comments_rate": -0.03333333333333333
-                }
-              },
-              {
-                "id": "h2o2fcl",
-                "sentiment": {
-                  "textblob_comments_rate": 0.15,
-                  "vader_comments_rate": 0.3641,
-                  "spacy_comments_rate": 0.15,
-                  "total_comments_rate": 0.22136666666666668
-                }
-              },
-              {
-                "id": "h2nfq5o",
-                "sentiment": {
-                  "textblob_comments_rate": 0.20727272727272728,
-                  "vader_comments_rate": 0.9231,
-                  "spacy_comments_rate": 0.20727272727272728,
-                  "total_comments_rate": 0.4458818181818182
                 }
               },
               {
@@ -9268,6 +9529,15 @@
                 }
               },
               {
+                "id": "h2o2fcl",
+                "sentiment": {
+                  "textblob_comments_rate": 0.15,
+                  "vader_comments_rate": 0.3641,
+                  "spacy_comments_rate": 0.15,
+                  "total_comments_rate": 0.22136666666666668
+                }
+              },
+              {
                 "id": "h2nhop0",
                 "sentiment": {
                   "textblob_comments_rate": 0.0,
@@ -9283,6 +9553,15 @@
                   "vader_comments_rate": -0.4278,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": -0.1426
+                }
+              },
+              {
+                "id": "h2ni2yc",
+                "sentiment": {
+                  "textblob_comments_rate": -5.551115123125783e-17,
+                  "vader_comments_rate": -0.5859,
+                  "spacy_comments_rate": -5.551115123125783e-17,
+                  "total_comments_rate": -0.19530000000000003
                 }
               },
               {
@@ -9373,15 +9652,6 @@
                   "vader_comments_rate": -0.4545,
                   "spacy_comments_rate": 0.0,
                   "total_comments_rate": -0.1515
-                }
-              },
-              {
-                "id": "h2ni2yc",
-                "sentiment": {
-                  "textblob_comments_rate": -5.551115123125783e-17,
-                  "vader_comments_rate": -0.5859,
-                  "spacy_comments_rate": -5.551115123125783e-17,
-                  "total_comments_rate": -0.19530000000000003
                 }
               },
               {
@@ -9625,6 +9895,15 @@
                   "vader_comments_rate": -0.5423,
                   "spacy_comments_rate": -0.2,
                   "total_comments_rate": -0.3141
+                }
+              },
+              {
+                "id": "h2nw55s",
+                "sentiment": {
+                  "textblob_comments_rate": 0.35,
+                  "vader_comments_rate": 0.7096,
+                  "spacy_comments_rate": 0.35,
+                  "total_comments_rate": 0.4698666666666667
                 }
               },
               {
@@ -10579,15 +10858,6 @@
                   "vader_comments_rate": 0.5318,
                   "spacy_comments_rate": 0.20166666666666666,
                   "total_comments_rate": 0.3117111111111111
-                }
-              },
-              {
-                "id": "h2nw55s",
-                "sentiment": {
-                  "textblob_comments_rate": 0.35,
-                  "vader_comments_rate": 0.7096,
-                  "spacy_comments_rate": 0.35,
-                  "total_comments_rate": 0.4698666666666667
                 }
               }
             ],

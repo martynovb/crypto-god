@@ -20,14 +20,13 @@ reddit = praw.Reddit(client_id='VIB-kgeb_4moHcs9KpIU6A',
 
 subreddits = ['bitcoin', 'cryptocurrency', 'ethereum', 'solana', 'CryptoMarkets']
 
-
-
-subreddit = "bitcoin"
-start_date = int(datetime(2022, 2, 23).timestamp())
-end_date = int(datetime(2022, 2, 24).timestamp())
+subreddit = "ethereum"
+start_date = int(datetime(2015, 9, 24).timestamp())
+end_date = int(datetime(2015, 9, 26).timestamp())
 
 url = f"https://api.pushshift.io/reddit/submission/search?subreddit={subreddit}&after={start_date}&before={end_date}"
 
+print(f'request to ${url}')
 response = requests.get(url)
 
 if response.status_code == 200:
@@ -35,12 +34,11 @@ if response.status_code == 200:
     posts = data['data']
     if len(posts) != 0:
         for post in posts:
-            print(post['title'], post['permalink'])
+            print(post['title'], post['id'])
     else:
         print(f"Empty data: {data}")
 else:
     print("Error retrieving posts")
-
 
 
 class RedditSocialSubmissionAnalyser:
