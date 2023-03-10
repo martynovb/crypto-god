@@ -4,10 +4,12 @@ import spacy
 from textblob import TextBlob
 from spacytextblob.spacytextblob import SpacyTextBlob
 from nltk.sentiment import SentimentIntensityAnalyzer
-from datetime import datetime
+
 from praw.models import MoreComments
 import json
 import requests
+import time
+import datetime
 
 nltk.downloader.download('vader_lexicon')
 nlp = spacy.load('en_core_web_sm')
@@ -18,30 +20,54 @@ reddit = praw.Reddit(client_id='VIB-kgeb_4moHcs9KpIU6A',
                      client_secret='3FgGRG_evVCX7VsotBTt7NwmQfKDFg',
                      user_agent="VIB-kgeb_4moHcs9KpIU6A/1.0 (by /u/crypto-god)")
 
-subreddits = ['bitcoin', 'cryptocurrency', 'ethereum', 'solana', 'CryptoMarkets']
 
-subreddit = "ethereum"
-start_date = int(datetime(2015, 9, 24).timestamp())
-end_date = int(datetime(2015, 9, 26).timestamp())
+class RedditSentimentalAnalyser:
 
-url = f"https://api.pushshift.io/reddit/submission/search?subreddit={subreddit}&after={start_date}&before={end_date}"
+    def fetch_submission_comments(self, submission_id):
+        url = f"https://api.pushshift.io/reddit/comment/search?link_id={submission_id}&sort_type=top"
 
-print(f'request to ${url}')
-response = requests.get(url)
+        def fetch_submission_ids_in_time_chunk(self, subreddit_name, chunk_time_interval, chunk_time_range_start):
+            submissions = []
+            chunk_time_range_end = chunk_time_range_start + chunk_time_interval
 
-if response.status_code == 200:
-    data = response.json()
-    posts = data['data']
-    if len(posts) != 0:
-        for post in posts:
-            print(post['title'], post['id'])
-    else:
-        print(f"Empty data: {data}")
-else:
-    print("Error retrieving posts")
+            # make API request
+            url = f"https://api.pushshift.io/reddit/submission/search?subreddit={subreddit_name}&after={chunk_time_range_start}&before={chunk_time_range_end}&sort_type=top"
+            response = requests.get(url)
+            if response.status_code != 200:
+                print(f"Error {response.status_code}: {response.text}")
+                return None
 
+            # process API response
+            api_response = response.json()
+            for submission in api_response['data']:
+                submission_id = submission['id']
+                subreddit_id = submission['subreddit_id']
+                created_utc = submission['created_utc']
+                created_datetime = datetime.datetime.utcfromtimestamp(created_utc)
+                created_datetime_str = created_datetime.isoformat()
+                title = submission['title']
+                selftext = submission['selftext']
 
-class RedditSocialSubmissionAnalyser:
+                # add submission to list
+                submissions.append({
+                    "id": submission_id,
+                    "subreddit_id": subreddit_id,
+                    "created_timestamp": created_utc,
+                    "created_timestamp_str": created_datetime_str,
+                    "title": title,
+                    "selftext": selftext,
+                })
+
+            # create JSON object
+            json_obj = {
+                "chunk_time_range_start": chunk_time_range_start,
+                "chunk_time_range_end": chunk_time_range_start,
+                "chunk_time_range_start_str": datetime.datetime.utcfromtimestamp(chunk_time_range_start).isoformat(),
+                "chunk_time_range_end_str": datetime.datetime.utcfromtimestamp(chunk_time_range_end).isoformat(),
+                "submissions": submissions
+            }
+            print(json_obj)
+            return json_obj
 
     def start(self, subreddits):
         reddit_analysis = []
