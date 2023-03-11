@@ -6,11 +6,11 @@ import matplotlib.dates as mdates
 import datetime as dt
 
 
-with open(os.path.join('../analyse/sentiment_analyse', 'reddit_analysis.json'), 'r') as f:
+with open(os.path.join('../analyse/sentimental', 'reddit_analysis.json'), 'r') as f:
     data = json.load(f)
 
 
-# Create a dictionary to hold the aggregated sentiment data
+# Create a dictionary to hold the aggregated sentimental data
 agg_sentiment = {}
 
 # Iterate through each subreddit's historical data
@@ -18,7 +18,7 @@ for subreddit_data in data:
     subreddit = subreddit_data["subreddit"]
     sentiment_data = subreddit_data["sentiment_historical_data"]
 
-    # Iterate through each chunk of sentiment data
+    # Iterate through each chunk of sentimental data
     for chunk in sentiment_data:
         chunk_start = chunk["chunk_time_range_start"]
         tb_sentiment = chunk["total_sentimental"]["tb"]
@@ -26,7 +26,7 @@ for subreddit_data in data:
         sp_sentiment = chunk["total_sentimental"]["sp"]
         total_sentiment = chunk["total_sentimental"]["total"]
 
-        # Add the sentiment data to the dictionary
+        # Add the sentimental data to the dictionary
         if chunk_start not in agg_sentiment:
             agg_sentiment[chunk_start] = {"tb": [], "vd": [], "sp": [], "total": []}
         agg_sentiment[chunk_start]["tb"].append(tb_sentiment)
@@ -34,7 +34,7 @@ for subreddit_data in data:
         agg_sentiment[chunk_start]["sp"].append(sp_sentiment)
         agg_sentiment[chunk_start]["total"].append(total_sentiment)
 
-# Calculate the average sentiment for each chunk
+# Calculate the average sentimental for each chunk
 avg_sentiment = {"tb": [], "vd": [], "sp": [], "total": []}
 for chunk_start in sorted(agg_sentiment.keys()):
     avg_tb = np.mean(agg_sentiment[chunk_start]["tb"])
@@ -49,7 +49,7 @@ for chunk_start in sorted(agg_sentiment.keys()):
 # Convert datetime objects to matplotlib date format
 x = [mdates.date2num(dt) for dt in sorted(agg_sentiment.keys())]
 
-# Plot the sentiment data
+# Plot the sentimental data
 plt.plot(x, avg_sentiment["tb"], label="tb")
 plt.plot(x, avg_sentiment["vd"], label="vd")
 plt.plot(x, avg_sentiment["sp"], label="sp")
