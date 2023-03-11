@@ -1,11 +1,12 @@
 from analyse.sentiment_analyse.reddit_sentiment_analyse import RedditSentimentalAnalyser
 from datetime import datetime
 
-subreddits = ['bitcoin', 'cryptocurrency', 'ethereum', 'solana', 'CryptoMarkets']
+# subreddits = ['bitcoin', 'cryptocurrency', 'ethereum', 'solana', 'CryptoMarkets']
+subreddits = ['bitcoin', 'cryptocurrency']
 
 subreddit = "ethereum"
 chunk_time_interval = 24 * 60 * 60  # 1 day
-start_date = int(datetime(2015, 9, 24).timestamp())
-end_date = int(datetime(2015, 9, 26).timestamp())
+start_date = int(datetime(2023, 3, 1).timestamp())
+end_date = int(datetime(2023, 3, 10).timestamp())
 
-RedditSentimentalAnalyser().fetch_submission_ids_in_time_range("bitcoin", chunk_time_interval, start_date)
+RedditSentimentalAnalyser().analyse(subreddits, start_date, end_date, chunk_time_interval, 10)
