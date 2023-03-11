@@ -1,0 +1,12 @@
+sentiment_data
+
+sentimentModel
+    id
+    chunk_time_range_start
+    chunk_time_range_end
+    source (reddit/twitter/telegram/discord/etc.)
+    sentimental_score
+          tb: 0.08901259856023712
+          vd: 0.1402515
+          sp: 0.08901259856023712
+          total: 0.1060922323734914
