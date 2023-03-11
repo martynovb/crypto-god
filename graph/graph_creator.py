@@ -5,10 +5,8 @@ import numpy as np
 import matplotlib.dates as mdates
 import datetime as dt
 
-
-with open(os.path.join('../analyse/sentimental', 'reddit_analysis.json'), 'r') as f:
+with open(os.path.join('../data/sent_analyse_data', 'reddit_sent_data.json'), 'r') as f:
     data = json.load(f)
-
 
 # Create a dictionary to hold the aggregated sentimental data
 agg_sentiment = {}
@@ -29,10 +27,10 @@ for subreddit_data in data:
         # Add the sentimental data to the dictionary
         if chunk_start not in agg_sentiment:
             agg_sentiment[chunk_start] = {"tb": [], "vd": [], "sp": [], "total": []}
-        agg_sentiment[chunk_start]["tb"].append(tb_sentiment)
-        agg_sentiment[chunk_start]["vd"].append(vd_sentiment)
-        agg_sentiment[chunk_start]["sp"].append(sp_sentiment)
-        agg_sentiment[chunk_start]["total"].append(total_sentiment)
+        agg_sentiment[chunk_start]["tb"].append(round(tb_sentiment, 4))
+        agg_sentiment[chunk_start]["vd"].append(round(vd_sentiment, 4))
+        agg_sentiment[chunk_start]["sp"].append(round(sp_sentiment, 4))
+        agg_sentiment[chunk_start]["total"].append(round(total_sentiment, 4))
 
 # Calculate the average sentimental for each chunk
 avg_sentiment = {"tb": [], "vd": [], "sp": [], "total": []}
@@ -50,26 +48,19 @@ for chunk_start in sorted(agg_sentiment.keys()):
 x = [mdates.date2num(dt) for dt in sorted(agg_sentiment.keys())]
 
 # Plot the sentimental data
-plt.plot(x, avg_sentiment["tb"], label="tb")
-plt.plot(x, avg_sentiment["vd"], label="vd")
-plt.plot(x, avg_sentiment["sp"], label="sp")
-plt.plot(x, avg_sentiment["total"], label="total")
+# plt.plot(x, avg_sentiment["sp"], label="sp", color="yellow")
+# plt.plot(x, avg_sentiment["tb"], label="tb", color="green")
+# plt.plot(x, avg_sentiment["vd"], label="vd", color="blue")
+plt.plot(x, avg_sentiment["total"], label="total", color="red")
 plt.legend()
-
-
 
 # Convert matplotlib dates to strings
 x_labels = [dt.datetime.fromtimestamp(chunk_start).strftime('%d/%m/%y') for chunk_start in sorted(agg_sentiment.keys())]
 
-
-
 # Convert datetime objects to matplotlib date format
 plt.gca().set_xticks(x)
 
-
 # Set the x-tick labels
 plt.gca().set_xticklabels(x_labels)
-
-
 
 plt.show()
