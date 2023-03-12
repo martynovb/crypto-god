@@ -8,7 +8,7 @@ from analyse.sentimental.utils import text_sentimental_analysis
 from constants import REDDIT_SENT_DATA_FILE_NAME
 
 delay_in_sec = 3
-filePath = os.path.join("..", "..", "data", "sent_analyse_data", REDDIT_SENT_DATA_FILE_NAME)
+filePath = os.path.join("../..", "..", "data", "sent_analyse_data", REDDIT_SENT_DATA_FILE_NAME)
 
 
 class RedditSentimentalAnalyser:
