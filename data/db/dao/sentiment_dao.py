@@ -3,13 +3,13 @@ from typing import List
 
 from sqlalchemy.orm import Session
 
-from data.dao.base_dao import BaseDAO
-from data.models.sentiment_data import SentimentData, SentimentScoreData, TimeRangeType
+from data.db.dao.base_dao import BaseDAO
+from data.db.models.sentiment_data import SentimentData, SentimentScoreData, TimeRangeType
 
 
 class SentimentDAO(BaseDAO):
     def __init__(self, db_engine):
-        super().__init__(db_engine, SentimentData)
+        super().__init__(db_engine)
         self._db_engine = db_engine
 
     def get_sentiment_data_by_time_range_type(self, time_range_type: TimeRangeType, start_date: datetime,
